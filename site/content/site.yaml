@@ -23,9 +23,9 @@ accepting_applications: false
 application_status_note: "The lab is NOT currently accepting applications for postdocs, lab manager/research technician positions, UW graduate students, or UW undergraduates."
 nav:
   - {label: "Research", url: "index.html"}
+  - {label: "People", url: "people.html"}
   - {label: "SimBA", url: "simba.html"}
   - {label: "ArgiNLS", url: "arginls.html"}
-  - {label: "People", url: "people.html"}
   - {label: "News", url: "news.html"}
   - {label: "Publications", url: "publications.html"}
   - {label: "Join", url: "apply.html"}
