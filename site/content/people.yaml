@@ -77,6 +77,22 @@ current:
           - {label: "Google Scholar", url: ""}
           - {label: "PubMed", url: ""}
 
+  - group: "Key Collaborators"
+    website: "https://sites.google.com/uw.edu/heshmati/"
+    intro: >
+      The Golden Lab collaborates closely with the Heshmati Lab (Department of Anesthesiology
+      & Pain Medicine, University of Washington), led by Dr. Mitra Heshmati, on our shared
+      research into the neural circuits of anesthesia and consciousness.
+    members:
+      - name: "Mitra Heshmati, MD, PhD"
+        photo: "collaborators/mitra-heshmati.png"
+      - name: "Carlie Neiswanger, PhD"
+        photo: "collaborators/carlie-neiswanger.png"
+      - name: "Minke Nota, PhD"
+        photo: "collaborators/minke-nota.png"
+      - name: "Kevin Schneider, PhD"
+        photo: "collaborators/kevin-schneider.png"
+
   - group: "Undergraduate Trainees"
     members:
       - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}

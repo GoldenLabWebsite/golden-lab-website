@@ -15,6 +15,20 @@
   </li>
   {% endfor %}
 </ul>
+{% elif group.group == "Key Collaborators" %}
+<div class="collaborators">
+  {% if group.intro %}
+  <p class="collaborators-intro center-line">{% if group.website %}{{ group.intro | replace("Heshmati Lab", '<a class="accent-link" href="' ~ group.website ~ '" target="_blank" rel="noopener">Heshmati Lab</a>', 1) | safe }}{% else %}{{ group.intro }}{% endif %}</p>
+  {% endif %}
+  <div class="collaborators-row">
+    {% for m in group.members %}
+    <div class="collaborator">
+      <img class="collaborator-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">
+      <p class="collaborator-name">{{ m.name }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 {% else %}
 {% for m in group.members %}
 <div class="person">
