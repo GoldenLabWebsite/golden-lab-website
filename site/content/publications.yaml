@@ -1,4 +1,11 @@
 publications:
+- year: 2026
+  authors: Goodwin NL, Anumolu P, Hoffman NP, Barrow AC, Tsai VS, MacMillen LK, Golden SA, Heshmati M.
+  title: Attack repertoires in outbred male CD1-mice are associated with nucleus accumbens neuroligin-2.
+  journal: eNeuro.
+  detail: 2026 Apr 24;13(5):ENEURO.0471-25.2026.
+  doi: 10.1523/ENEURO.0471-25.2026
+  abstract: Aggression may be behaviorally distinguished by reactive or appetitive properties. Here, we use a model of operant aggression administration, in which outbred male CD-1 mice lever press (contingent) or do not lever press (noncontingent) to attack an intruder mouse, to examine behavioral differences in aggression reinforcement. Contingent reinforcement identifies the behavioral and neural basis of appetitive, or rewarding, aggression self-administration, while noncontingent reinforcement isolates reactive, or involuntary, components. Females are not used in this study due to their low propensity to attack. We applied supervised machine-guided behavioral classification and Shapley additive scores (SHAP) to describe differences and similarities in attack behavior features. We find that behavioral sequences of an attack bout are similar whether aggression reinforcement is contingent or noncontingent, though underlying neural mechanisms differ. Fos immunolabeling following operant reinforcement reveals distinct network activity patterns between contingent and noncontingent groups, supporting distinct neural mechanisms in appetitive or reactive aggression. We further identify high Fos activity in nucleus accumbens (NAc) in both contingent and noncontingent groups. NAc activity and changes in NAc neuroligin-2 (NLGN2) expression are associated with aggressive behavior. We find that the number of attack bouts is negatively correlated with NAc NLGN2 immunolabeling, regardless of contingent or noncontingent intruder presentation. As a result, molecularly dissociable features do not necessarily reflect operant behavioral repertoires.
 - year: 2025
   authors: Toddes C, Golden SA.
   title: 'Behavioral neuroscience: Dominance in the absence of competition.'
