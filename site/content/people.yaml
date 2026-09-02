@@ -74,8 +74,6 @@ current:
   - group: "Undergraduate Trainees"
     members:
       - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
-      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
-      - {name: "Brittni Atkinson", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Shireen Aryana", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Aurora Exner", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Shagun Seth", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
@@ -139,8 +137,10 @@ alumni:
       - {name: "William Riley Keeler", years: "2023-2025"}
       - {name: "Aida Chan", years: "2023-2024"}
       - {name: "Ian McRae", years: "2023-2025"}
+      - {name: "Isabel Halperin", years: "2023-2026"}
       - {name: "Zoya Hill-Sargizi", years: "2024-2026"}
       - {name: "Kelsey Carvajal", years: "2024-2025", note: "UW ENDURE Program"}
+      - {name: "Brittni Atkinson", years: "2025-2026"}
   - group: "High School Trainees"
     members:
       - {name: "Anika Consul", years: "2019-2020", note: "Tesla STEM High School"}

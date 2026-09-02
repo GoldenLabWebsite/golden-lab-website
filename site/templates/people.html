@@ -6,6 +6,15 @@
 {% for group in people.current %}
 <h3 class="eyebrow group-heading">{{ group.group }}</h3>
 <hr>
+{% if group.group == "Undergraduate Trainees" %}
+<ul class="alumni-list">
+  {% for m in group.members %}
+  <li>{{ m.name }}{% if m.years %} &mdash; {{ m.years }}{% endif %}
+  {% if m.links %} &mdash; {% for l in m.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
 {% for m in group.members %}
 <div class="person">
   {% if m.photo %}<img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">{% endif %}
@@ -20,6 +29,7 @@
   {% endif %}
 </div>
 {% endfor %}
+{% endif %}
 {% endfor %}
 
 <hr>
