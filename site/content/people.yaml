@@ -27,11 +27,10 @@ current:
           aggression to maladaptive aggression-seeking behavior.
         photo: "people/golden.webp"
         links:
-          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/UW-SOM-CV-Official-Format-Golden-Sam-06-01-2024.pdf"}
+          - {label: "Curriculum Vitae", url: "static/files/golden-cv.pdf"}
           - {label: "Email", url: "mailto:sagolden@uw.edu"}
           - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=fcR9Oa4AAAAJ&hl=en"}
           - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=golden+sa"}
-          - {label: "Twitter", url: "https://twitter.com/GoldenNeuron"}
 
   - group: "Staff and Postdoctoral Fellows"
     members:
