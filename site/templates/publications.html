@@ -11,11 +11,39 @@
 
 <hr>
 
+{% set covers = [
+  {"img": "neuron-2024.jpg", "anchor": "pub-ouyang-2024-neuron", "journal": "Neuron", "year": "2024", "title": "An implantable device for wireless monitoring of diverse physio-behavioral characteristics in freely behaving small animals and interacting groups"},
+  {"img": "pnas-2022.jpg", "anchor": "pub-madangopal-2022-pnas", "journal": "PNAS", "year": "2022", "title": "Incubation of palatable food craving is associated with brain-wide neuronal activation in mice"},
+  {"img": "npp-2022-aubry.jpg", "anchor": "pub-aubry-2022-npp", "journal": "NPP", "year": "2022", "title": "Sex differences in appetitive and reactive aggression"},
+  {"img": "curropinneurobiol-2022.jpg", "anchor": "pub-goodwin-2022-curropinneurobiol", "journal": "Curr Opin Neurobiol", "year": "2022", "title": "Toward the explainability, transparency, and universality of machine learning for behavioral classification in neuroscience"},
+  {"img": "jneurosci-2019-may.jpg", "anchor": "pub-golden-2019-jneurosci-review", "journal": "J Neurosci", "year": "2019", "title": "Animal models of (or for) aggression reward, addiction, and relapse: behavior and circuits"},
+  {"img": "jneurosci-2019-mar.jpg", "anchor": "pub-golden-2019-jneurosci", "journal": "J Neurosci", "year": "2019", "title": "Nucleus accumbens Drd1-expressing neurons control aggression self-administration and aggression seeking in mice"},
+  {"img": "npp-2018-relapse.jpg", "anchor": "pub-golden-2018-npp-relapse", "journal": "NPP", "year": "2018", "title": "Aggression addiction and relapse: a new frontier in psychiatry"},
+  {"img": "biolpsych-2017.jpg", "anchor": "pub-golden-2017-biolpsychiatry", "journal": "Biol Psychiatry", "year": "2017", "title": "Compulsive addiction-like aggressive behavior in mice"},
+  {"img": "genesbrainbehav-2017.jpg", "anchor": "pub-golden-2017-genesbrainbehav", "journal": "Genes Brain Behav", "year": "2017", "title": "Persistent conditioned place preference to aggression experience in adult male sexually-experienced CD-1 mice"},
+  {"img": "nature-2016.jpg", "anchor": "pub-golden-2016-nature", "journal": "Nature", "year": "2016", "title": "Basal forebrain projections to the lateral habenula modulate aggression reward"},
+  {"img": "natmed-2015.jpg", "anchor": "pub-sun-2015-natmed", "journal": "Nat Med", "year": "2015", "title": "ACF chromatin-remodeling complex mediates stress-induced depressive-like behavior"},
+  {"img": "natneuro-2015.jpg", "anchor": "pub-christoffel-2015-natneurosci", "journal": "Nat Neurosci", "year": "2015", "title": "Excitatory transmission at thalamo-striatal synapses mediates susceptibility to social stress"}
+] %}
+<div class="cover-wall">
+  <p class="eyebrow center-line">On the Cover</p>
+  <div class="cover-grid">
+    {% for c in covers %}
+    <a class="cover-tile" href="#{{ c.anchor }}" title="{{ c.title }} — {{ c.journal }}, {{ c.year }}">
+      <span class="cover-img-wrap"><img src="static/images/covers/{{ c.img }}" alt="{{ c.journal }} cover, {{ c.year }}" loading="lazy"></span>
+      <span class="cover-caption">{{ c.journal }} &middot; {{ c.year }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<hr>
+
 {% for year, pubs in publications_by_year %}
 <h2 class="year-label">{{ year }}</h2>
 <hr>
 {% for p in pubs %}
-<div class="pub-entry">
+<div class="pub-entry" id="{{ p.anchor }}">
   <p class="pub-title">{{ p.title | upper }}</p>
   <p class="pub-authors">{{ p.authors | replace("Golden SA", "<strong>Golden SA</strong>") | safe }}</p>
   <p class="pub-citation">{{ p.journal }} {{ p.detail }}{% if p.doi %} doi: <a class="accent-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.doi }}</a>{% endif %}{% if p.preprint %} <span class="muted">[PREPRINT]</span>{% endif %}{% if p.pdf %} <a class="accent-link" href="{{ p.pdf }}" target="_blank" rel="noopener">[FULL DOWNLOAD]</a>{% endif %}</p>

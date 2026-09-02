@@ -37,6 +37,11 @@ def main():
     total = len(pubs_raw)
     for i, p in enumerate(pubs_raw):
         p["num"] = total - i
+        # Stable per-entry anchor for deep-linking (e.g. from the cover gallery).
+        if p.get("pdf"):
+            p["anchor"] = "pub-" + p["pdf"].rsplit("/", 1)[-1].rsplit(".", 1)[0]
+        else:
+            p["anchor"] = f"pub-{p['num']}"
 
     years = sorted({p["year"] for p in pubs_raw}, reverse=True)
     publications_by_year = [(y, [p for p in pubs_raw if p["year"] == y]) for y in years]
