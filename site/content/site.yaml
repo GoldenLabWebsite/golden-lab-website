@@ -13,6 +13,8 @@ address_lines:
   - "1959 NE Pacific Street, HSB F-524"
   - "Box 357420"
   - "Seattle, WA 98195"
+map_embed_url: "https://www.google.com/maps?q=1959+NE+Pacific+St,+Seattle,+WA+98195&output=embed"
+map_directions_url: "https://www.google.com/maps/dir/?api=1&destination=1959+NE+Pacific+St%2C+Seattle%2C+WA+98195"
 phone: "(206) 685-1587"
 fax: "(206) 543-1524"
 email: "sagolden@uw.edu"

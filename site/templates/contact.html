@@ -10,4 +10,12 @@
   Fax: {{ site.fax }}<br>
   Email: <a class="accent-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
 </p>
+{% if site.map_embed_url %}
+<div class="map-wrap">
+  <iframe class="map-embed" src="{{ site.map_embed_url }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map to {{ site.lab_name }}"></iframe>
+</div>
+{% if site.map_directions_url %}
+<p class="center-line link-row"><a class="accent-link" href="{{ site.map_directions_url }}" target="_blank" rel="noopener">GET DIRECTIONS</a></p>
+{% endif %}
+{% endif %}
 {% endblock %}

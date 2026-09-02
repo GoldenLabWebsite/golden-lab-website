@@ -308,6 +308,22 @@ section p { margin: 0 0 18px; }
 
 address { font-style: normal; }
 
+/* contact map */
+.map-wrap {
+  max-width: 640px;
+  margin: 28px auto 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
+}
+.map-embed {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  display: block;
+}
+
 /* footer */
 .site-footer { text-align: center; padding: 56px 24px 40px; }
 .footer-tagline {
