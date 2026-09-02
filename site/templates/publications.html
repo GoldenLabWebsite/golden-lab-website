@@ -13,6 +13,7 @@
 
 {% for year, pubs in publications_by_year %}
 <h2 class="year-label">{{ year }}</h2>
+<hr>
 {% for p in pubs %}
 <div class="pub-entry">
   <p class="pub-title">{{ p.title | upper }}</p>
