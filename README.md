@@ -58,8 +58,14 @@ off the old Squarespace site (`gen_publications.py`, `decode_images.py`,
 `screenshot.py`). They're not needed for day-to-day updates — kept only in
 case a future re-scrape is useful.
 
-## Deployment (one-time setup, not yet done)
+## Deployment (live)
 
-This repository is not yet connected to a live host. See the migration notes
-from Claude for the recommended next steps (GitHub Pages or Netlify, plus
-repointing the goldenneurolab.com domain at GoDaddy).
+- **GitHub repo:** https://github.com/GoldenLabWebsite/golden-lab-website
+- **Live URL (GitHub Pages):** https://goldenlabwebsite.github.io/golden-lab-website/
+- Pages is configured to serve from `main` branch, `/docs` folder. Any push
+  to `main` that updates `docs/` goes live within about a minute.
+
+**Not yet done:** pointing goldenneurolab.com itself at this site. That
+requires a DNS change at GoDaddy (adding GitHub's A records + a CNAME file)
+and should happen only once you're happy with the content — Squarespace can
+stay live as a fallback until then.
