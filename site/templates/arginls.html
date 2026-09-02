@@ -2,8 +2,31 @@
 {% block title %}ArgiNLS — {{ site.lab_name }}{% endblock %}
 {% block content %}
 <h1 class="page-title center-line">{{ page.title }}</h1>
-<p>{{ page.intro }}</p>
-<p>{{ page.body }}</p>
+{% if page.addgene %}
+<p class="center-line">
+  <a class="addgene-badge" href="{{ page.addgene.url }}" target="_blank" rel="noopener">
+    <img class="addgene-logo" src="static/images/{{ page.addgene.img }}" alt="{{ page.addgene.alt | default('Addgene') }}">
+  </a>
+</p>
+{% endif %}
+<div class="arginls-hero">
+  {% if page.photo %}
+  <div class="arginls-photo-wrap">
+    <img class="arginls-photo" src="static/images/{{ page.photo }}" alt="{{ page.photo_alt | default(page.title) }}">
+    {% if page.photo_caption %}<p class="arginls-photo-caption">{{ page.photo_caption }}</p>{% endif %}
+  </div>
+  {% endif %}
+  <div class="arginls-text">
+    <p>{{ page.intro }}</p>
+    <p>{{ page.body }}</p>
+  </div>
+  {% if page.example_image %}
+  <div class="arginls-photo-wrap">
+    <img class="arginls-photo" src="static/images/{{ page.example_image }}" alt="{{ page.example_image_alt | default('') }}">
+  </div>
+  {% endif %}
+</div>
+
 <h3 class="eyebrow">Availability</h3>
 <p>{{ page.availability }}</p>
 <hr>

@@ -14,6 +14,9 @@ simba:
 
 arginls:
   title: "ArgiNLS"
+  photo: "arginls/eric-szelenyi.jpg"
+  photo_alt: "Dr. Eric Szelenyi"
+  photo_caption: "Dr. Eric Szelenyi"
   intro: >
     ArgiNLS (Arginine-rich Nuclear Localization Signal) is a genetic tagging strategy developed
     by Dr. Eric Szelenyi and Dr. Sam Golden that flexibly and safely achieves fluorescent-protein
@@ -24,9 +27,16 @@ arginls:
     biology. Traditional nuclear localization signals have limited effectiveness, while
     alternative approaches can compromise cellular health. ArgiNLS improves discrimination of
     individually labeled cells while maintaining cellular compatibility.
+  example_image: "arginls/arginls-example.png"
+  example_image_alt: "Example ArgiNLS labeling in mouse brain tissue"
+  example_image_caption: "Example ArgiNLS labeling, demonstrating nuclear-restricted expression across the brain."
   availability: >
     Constructs are available through Addgene for academic and non-profit institutions under
     standard material transfer agreements. Other use requests should be directed to Dr. Szelenyi.
+  addgene:
+    img: "arginls/addgene-logo.png"
+    url: "https://www.addgene.org/Sam_Golden/"
+    alt: "Sam Golden Lab -- find and request materials through Addgene"
   publication:
     label: "Published in PNAS (2024)"
     url: "https://doi.org/10.1073/pnas.2320250121"
