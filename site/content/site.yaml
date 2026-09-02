@@ -43,9 +43,14 @@ research_areas:
       maladaptive, addiction-like aggression seeking.
   - title: "Addiction"
     body: >
-      We examine the roles of both pro- and anti-social behaviors in addiction processes,
-      focusing on maladaptive appetitive aggression during withdrawal and relapse, as well as
-      the neural circuits underlying opioid and other substance use disorders.
+      Fentanyl-related overdose deaths increasingly involve non-injection routes, yet
+      preclinical models of opioid self-administration remain predominantly intravenous. We
+      developed an oral fentanyl self-administration procedure in mice that captures volitional
+      intake, cue-driven seeking, extinction, and relapse. This work reveals separable
+      escalation-prone and relapse-prone phenotypes that track genetic background, with sex
+      differences concentrated in classically studied inbred mice. All protocols, hardware
+      specifications, and analysis code are shared openly to lower the barrier to adopting this
+      model.
   - title: "Depression"
     body: >
       In 2024, we introduced an operant social stress procedure that combines voluntary social
@@ -56,10 +61,14 @@ research_areas:
       differences in stress resilience and susceptibility.
   - title: "Pain"
     body: >
-      A newer focus of the lab examines how pain shapes social behavior and social hierarchy.
-      We investigate the neural circuits through which pain states modulate social interaction,
-      aggression, and dominance, with the goal of understanding how chronic pain conditions
-      contribute to social withdrawal and altered aggressive behavior.
+      Social contact is known to buffer pain, but whether an animal's agency over that contact
+      matters is unclear. Using a social operant self-administration procedure in which mice
+      lever-press for access to their pair-housed partner, we found that voluntary social
+      engagement buffers pain following nerve injury, but only within an early critical window:
+      mice given access to their partner one day after injury showed buffered pain, while access
+      delayed by five days did not, despite similarly preserved social reward-seeking. Passive,
+      non-contingent social contact and food reward did not buffer pain, highlighting agency and
+      timing as key variables in social pain buffering.
   - title: "Methods Development"
     body: >
       The lab builds and shares open-source tools for behavioral neuroscience, including SimBA
