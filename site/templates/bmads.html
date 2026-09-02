@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}BMAD — {{ site.lab_name }}{% endblock %}
+{% block content %}
+<h1 class="page-title center-line">{{ page.title }}</h1>
+<p>{{ page.intro }}</p>
+<p>{{ page.body }}</p>
+{% if page.figure_image %}
+<div class="bmads-figure center-line">
+  <img src="static/images/{{ page.figure_image }}" alt="{{ page.figure_alt | default('') }}">
+  {% if page.figure_caption %}<p class="bmads-figure-caption">{{ page.figure_caption }}</p>{% endif %}
+</div>
+{% endif %}
+<h3 class="eyebrow">Availability</h3>
+<p>{{ page.availability }}</p>
+{% if page.commercial %}
+<p class="muted bmads-commercial-note">BMAD hardware available for purchase from <a href="{{ page.commercial.url }}" target="_blank" rel="noopener">{{ page.commercial.label }}</a>.</p>
+{% endif %}
+<hr>
+<p class="center-line link-row">
+  <a class="accent-link" href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label | upper }}</a>{% if page.publication.pdf %} <a class="accent-link" href="{{ page.publication.pdf }}" target="_blank" rel="noopener">[FULL DOWNLOAD]</a>{% endif %}
+</p>
+{% endblock %}

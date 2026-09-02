@@ -30,6 +30,7 @@ nav:
   - {label: "News", url: "news.html"}
   - {label: "SimBA", url: "simba.html"}
   - {label: "ArgiNLS", url: "arginls.html"}
+  - {label: "BMAD", url: "bmads.html"}
   - {label: "Join", url: "apply.html"}
   - {label: "Contact", url: "contact.html"}
 mission: >
