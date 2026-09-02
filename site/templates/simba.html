@@ -6,6 +6,10 @@
 <p class="center-line link-row">
   {% for l in page.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
 </p>
+<div class="qr-wrap center-line">
+  <img class="qr-code" src="static/images/simba-qr.png" alt="QR code linking to the SimBA published studies page">
+  <p class="qr-caption">Scan to visit SimBA</p>
+</div>
 <hr>
 <p class="muted center-line">{{ page.contact_note }}</p>
 {% endblock %}

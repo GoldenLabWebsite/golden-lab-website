@@ -7,7 +7,10 @@ simba:
   links:
     - {label: "GitHub repository", url: "https://github.com/sgoldenlab/simba"}
     - {label: "Nature Neuroscience publication", url: "https://doi.org/10.1038/s41593-024-01649-9"}
-  contact_note: "For questions about SimBA, contact the lab at sagolden@uw.edu."
+  contact_note: >
+    SimBA is now primarily supported by Dr. Simon Nilsson, with assistance from Dr. Nastacia
+    Goodwin and the Golden lab. Please direct any questions to sronilsson@gmail.com,
+    ngoodwin@uw.edu, and sagolden@uw.edu.
 
 arginls:
   title: "ArgiNLS"

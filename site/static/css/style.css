@@ -28,6 +28,18 @@ hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
 .muted { color: var(--muted); }
 .center-line { text-align: center; }
 
+.qr-wrap { margin: 24px 0; }
+.qr-code { width: 160px; max-width: 100%; height: auto; }
+.qr-caption {
+  margin-top: 9px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* header */
 .site-header {
   position: sticky;
