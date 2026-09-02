@@ -1,14 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{% endblock %}
+{% block title %}SimBA — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap prose">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.intro }}</p>
-  <ul class="link-list">
-    {% for l in page.links %}
-    <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
-    {% endfor %}
-  </ul>
-  <p class="muted">{{ page.contact_note }}</p>
-</section>
+<h1 class="page-title center-line">{{ page.title }}</h1>
+<p>{{ page.intro }}</p>
+<p class="center-line link-row">
+  {% for l in page.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+</p>
+<hr>
+<p class="muted center-line">{{ page.contact_note }}</p>
 {% endblock %}

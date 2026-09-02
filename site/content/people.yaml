@@ -2,86 +2,174 @@ current:
   - group: "Leadership"
     members:
       - name: "Sam A. Golden, PhD"
-        role: "Assistant Professor & Ronald S. Howell Distinguished Faculty Fellow"
+        role: "Assistant Professor, Ronald S. Howell Distinguished Faculty Fellow"
+        subroles:
+          - "Department of Biological Structure, Primary"
+          - "Department of Anesthesiology & Pain Medicine, Adjunct"
         years: ""
-        bio: "Understanding the psychological and neural mechanisms guiding reward processing."
-        photo: "placeholder-person.svg"
+        bio: >
+          Sam received his BS in Neuroscience from Bates College (Lewiston, ME) in 2006, PhD in
+          Neuroscience from the Icahn School of Medicine (New York City, NY) in 2015 under Dr.
+          Scott J. Russo, and completed his Postdoctoral Fellowship at the National Institute on
+          Drug Abuse (Baltimore, MD) in 2018 under Dr. Yavin Shaham. Sam joined the University of
+          Washington Department of Biological Structure in 2019, with a co-appointment as a
+          participating faculty in the UW Center of Excellence in Neurobiology of Addiction,
+          Pain, and Emotion (NAPE).
+
+          Sam's scientific interests encompass understanding the psychological and neural
+          mechanisms guiding reward processing. He is particularly interested in understanding
+          how neuropsychiatric disorders — such as maladaptive aggression, depression and
+          substance abuse — subvert basic reward circuitry to manifest pathological behavior.
+          Currently, he aims to better define the intersection of aggression and motivation, and
+          identify the cellular and circuit mechanisms that control the transition from adaptive
+          aggression to maladaptive aggression-seeking behavior.
+        photo: "people/golden.webp"
+        links:
+          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/UW-SOM-CV-Official-Format-Golden-Sam-06-01-2024.pdf"}
+          - {label: "Email", url: "mailto:sagolden@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=fcR9Oa4AAAAJ&hl=en"}
+          - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=golden+sa"}
+          - {label: "Twitter", url: "https://twitter.com/GoldenNeuron"}
 
   - group: "Staff and Postdoctoral Fellows"
     members:
       - name: "Eric Szelenyi, PhD"
         role: "Acting Assistant Professor"
         years: "2024-present (Postdoctoral Fellow 2019-2023)"
-        bio: "Brain-wide cellular ensembles underlying aggression and social behavior."
-        photo: "placeholder-person.svg"
+        bio: >
+          Eric received his BA in psychology/biochemistry from Shippensburg University
+          (Shippensburg, PA) in 2006 and conducted integrative physiology research for the
+          Department of Defense (USARIEM, Natick, MA) from 2006-2010. He received his PhD in
+          neuroscience from Stony Brook University (Stony Brook, NY) in 2017, completing his
+          thesis work under Dr. Pavel Osten at Cold Spring Harbor Laboratory. Prior to joining
+          the Golden Lab at UW, Eric worked as a Scientist at the Allen Institute for Brain
+          Science (Seattle, WA) from 2017-2019. Eric's scientific interest includes deciphering
+          brain-wide cellular ensembles and their dynamics that underlie behavior in health and
+          disease.
+        photo: "people/szelenyi.webp"
+        links:
+          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/Eric_R_Szelenyi_CV_2024JUN.pdf"}
+          - {label: "Email", url: "mailto:szelenyi@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=OkDzvKkAAAAJ"}
+          - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=szelenyi%20e"}
       - name: "Kevin Schneider, PhD"
         role: "Postdoctoral Fellow"
         years: "2022-present"
         bio: ""
-        photo: "placeholder-person.svg"
+        photo: "people/schneider.webp"
+        links:
+          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/Schneider_Kevin_UW_CV.pdf"}
+          - {label: "Email", url: "mailto:knschnei@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=-Iv6U4gAAAAJ&hl=en"}
+          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=pubdate&size=100&term=Schneider+KN&cauthor_id=38244753"}
       - name: "Carlee Toddes, PhD"
         role: "Postdoctoral Fellow"
         years: "2022-present (co-mentored with Dr. Mitra Heshmati)"
-        bio: "Neural dynamics underlying pain-modulated social behavior."
-        photo: "placeholder-person.svg"
+        bio: >
+          A postdoctoral research fellow specializing in the study of neural dynamics underlying
+          pain-modulated social behavior. Carlee obtained her PhD from the University of
+          Minnesota, where she conducted research in the Rothwell Lab investigating opioidergic
+          mechanisms that underlie social affiliative behaviors. Beyond her laboratory work, she
+          is deeply committed to promoting positive change in the scientific community through
+          active involvement in science policy and advocacy.
+        photo: "people/toddes.webp"
+        links:
+          - {label: "Email", url: "mailto:ctodde@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=oHKSXMEAAAAJ"}
+          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=toddes+carlee&sort=pubdate&size=100"}
       - name: "Lukas Macmillen, BS"
         role: "Research Technologist / Lab Manager"
         years: "2024-present"
         bio: ""
-        photo: "placeholder-person.svg"
+        photo: "people/macmillen.webp"
+        links:
+          - {label: "Email", url: "mailto:lukasmac@uw.edu"}
       - name: "Hallie Lazaro, BS"
         role: "Research Technologist"
-        years: "2024-present (co-mentored with Heshmati Lab)"
+        years: "2024-present (co-mentored with the Heshmati Lab)"
         bio: ""
-        photo: "placeholder-person.svg"
+        photo: "people/lazaro.webp"
+        links:
+          - {label: "Email", url: "mailto:hlazaro@uw.edu"}
 
   - group: "Graduate Trainees"
     members:
       - name: "Nastacia Goodwin, BS"
         role: "Graduate Student"
         years: "2019-2024"
-        bio: "Neural ensembles driving appetitive versus reactive aggression."
-        photo: "placeholder-person.svg"
+        bio: >
+          Nastacia received her BA in psychology from Smith College (Northampton, MA) in 2014.
+          She spent four years as a lab manager after graduation, first working with Dr.
+          Annaliese Beery at Smith and then Dr. Devanand Manoli at UCSF studying the
+          neurobiological underpinnings of peer versus mate sociality in voles. She is excited to
+          use her experience with behavioral work and molecular biology to study the neural
+          ensembles driving appetitive versus reactive aggression.
+        photo: "people/goodwin.webp"
+        links:
+          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/2019-08-18-Goodwin-CV.pdf"}
+          - {label: "Email", url: "mailto:ngoodwin@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/scholar?q=nastacia%20goodwin%20voles&start=0"}
+          - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=nastacia%20goodwin"}
       - name: "Jovana Navarrete"
         role: "Graduate Student"
         years: "2021-present"
         bio: ""
-        photo: "placeholder-person.svg"
+        photo: "people/navarrete.webp"
+        links:
+          - {label: "Email", url: "mailto:jnavar2@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=niNRu3wAAAAJ"}
+          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=navarrete+jovana&sort=date&size=100"}
 
   - group: "Post-baccalaureate Trainees"
     members:
       - name: "Erica Sanchez, BS"
         role: "Post-baccalaureate Student (UW SOAR Program)"
         years: "2024-present"
-        bio: "Neural circuitry of decision-making, behavior, and pain sensitivity."
-        photo: "placeholder-person.svg"
+        bio: >
+          Erica received her associate degree from Elgin Community College before transferring to
+          Seattle Pacific University, where she obtained her BS in Psychology with a concentration
+          in Behavioral and Cognitive Neuroscience. At SPU, she worked under Dr. Baker with rodent
+          models to investigate the neural circuitry of decision-making, behavior, and pain
+          sensitivity. She is also interested in research on the effects of depression and
+          addiction on behavior.
+        photo: "people/sanchez.webp"
+        links:
+          - {label: "Email", url: "mailto:esanche@uw.edu"}
 
   - group: "Undergraduate Trainees"
     members:
-      - {name: "Pranav Anumolu", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Kevin Bai", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Yahir Gonzalez", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Virginia Wang", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Ethan Gross", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Axelle Salazar", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Bryce Bowler", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "William Riley Keeler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Aida Chan", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
-      - {name: "Kelsey Carvajal", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2024-present", bio: "Cultivating expertise in neuroscience and research.", photo: "placeholder-person.svg"}
+      - {name: "Pranav Anumolu", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/anumolu.webp", links: []}
+      - {name: "Kevin Bai", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/bai.webp", links: []}
+      - {name: "Yahir Gonzalez", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/gonzalez.jpg", links: []}
+      - {name: "Virginia Wang", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/wang.jpg", links: []}
+      - {name: "Ethan Gross", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/gross.png", links: []}
+      - {name: "Axelle Salazar", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2022-present", bio: "", photo: "people/salazar.png", links: []}
+      - {name: "Bryce Bowler", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/bowler.webp", links: []}
+      - {name: "William Riley Keeler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/keeler.webp", links: []}
+      - {name: "Aida Chan", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/chan.webp", links: []}
+      - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/ressler.webp", links: []}
+      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/halperin.webp", links: []}
+      - name: "Kelsey Carvajal"
+        role: "Undergraduate Student (UW ENDURE Fellow)"
+        years: "2024-present"
+        bio: >
+          Kelsey is an undergraduate student at the University of Washington pursuing a BS in
+          Neuroscience. She is part of the Golden Lab through the UW ENDURE program. During her
+          time in the lab she hopes to cultivate her love for neuroscience and research.
+        photo: "people/carvajal.webp"
+        links: []
 
 alumni:
   - group: "Staff and Postdoctoral Fellows"
     members:
-      - {name: "Simon Nilsson, PhD", years: "2019-2021"}
-      - {name: "JJ Choong, MA", years: "2019-2021"}
-      - {name: "Alex Murry, BS", years: "2021-2023"}
+      - {name: "Simon Nilsson, PhD", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=dKt60xAAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=nilsson+sr"}]}
+      - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
+      - {name: "Alex Murry, BS", years: "2021-2023", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=murry+ad&sort=date&size=100"}]}
   - group: "PhD and MA Graduate Trainees"
     members:
-      - {name: "Nastacia Goodwin, PhD", years: "2019-2024"}
-      - {name: "JJ Choong, MA", years: "2019-2021"}
-      - {name: "Roël Vrooman, MA", years: "2020-2021"}
+      - {name: "Nastacia Goodwin, PhD", years: "2019-2024", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=goodwin+nl&sort=date&size=100"}]}
+      - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
+      - {name: "Roël Vrooman, MA", years: "2020-2021", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Ro%C3%ABl+Vrooman&sort=date&size=100"}]}
   - group: "Post-baccalaureate Trainees"
     members:
       - {name: "Briana Smith, BS", years: "2019-2020"}
@@ -90,29 +178,29 @@ alumni:
       - {name: "Ainsley Barrow, BS", years: "2023-2024"}
   - group: "Undergraduate Trainees"
     members:
-      - {name: "Tanvi Shedge", years: ""}
-      - {name: "Sophia Hwang", years: ""}
-      - {name: "Mahathi Allepally", years: ""}
-      - {name: "Cindy Xu", years: ""}
-      - {name: "Annette Mercedes", years: ""}
-      - {name: "Kayla Pitts", years: ""}
-      - {name: "Aasiya Islam", years: ""}
-      - {name: "Arash Tabesh", years: ""}
-      - {name: "Yizhe Zhang", years: ""}
-      - {name: "Valerie Tsai", years: ""}
-      - {name: "Emery Leggett", years: ""}
-      - {name: "Andrea Abanto", years: ""}
-      - {name: "Kaylani Kukkadapu", years: ""}
-      - {name: "Natalie Hoffman", years: ""}
-      - {name: "Sarah Kadado", years: ""}
-      - {name: "Drew-Elizabeth Barger", years: ""}
-      - {name: "Lauren Mika Kuo", years: ""}
-      - {name: "Ainsley Barrow", years: ""}
-      - {name: "Sam Husarik", years: ""}
+      - {name: "Tanvi Shedge", years: "2019"}
+      - {name: "Sophia Hwang", years: "2019-2020"}
+      - {name: "Mahathi Allepally", years: "2019-2020"}
+      - {name: "Cindy Xu", years: "2019-2021"}
+      - {name: "Annette Mercedes", years: "2019-2021"}
+      - {name: "Kayla Pitts", years: "2019-2022"}
+      - {name: "Aasiya Islam", years: "2020-2022"}
+      - {name: "Arash Tabesh", years: "2020"}
+      - {name: "Yizhe Zhang", years: "2020-2021"}
+      - {name: "Valerie Tsai", years: "2020-2022"}
+      - {name: "Emery Leggett", years: "2021"}
+      - {name: "Andrea Abanto", years: "2021"}
+      - {name: "Kaylani Kukkadapu", years: "2021-2022"}
+      - {name: "Natalie Hoffman", years: "2021-2022"}
+      - {name: "Sarah Kadado", years: "2021-2022"}
+      - {name: "Drew-Elizabeth Barger", years: "2021-2023"}
+      - {name: "Lauren Mika Kuo", years: "2021-2023"}
+      - {name: "Ainsley Barrow", years: "2022-2023"}
+      - {name: "Sam Husarik", years: "2023-2024"}
   - group: "High School Trainees"
     members:
-      - {name: "Anika Consul", years: ""}
-      - {name: "Hermona Hadush", years: ""}
-      - {name: "Shagun Seth", years: ""}
-      - {name: "Netrang Desai", years: ""}
-      - {name: "Aida Chan", years: ""}
+      - {name: "Anika Consul", years: "2019-2020", note: "Tesla STEM High School"}
+      - {name: "Hermona Hadush", years: "2021", note: "UW Rainier Summer Program"}
+      - {name: "Shagun Seth", years: "2022", note: "UW Rainier Summer Program"}
+      - {name: "Netrang Desai", years: "2022-2023", note: "Juanita High School"}
+      - {name: "Aida Chan", years: "2023", note: "UW U-BRIGHT Summer Program"}

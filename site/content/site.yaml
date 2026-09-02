@@ -1,5 +1,9 @@
 lab_name: "Golden Lab"
-tagline: "Neural circuits of motivated social behavior"
+tagline: "aggression.addiction.depression"
+logo: "logo.webp"
+scholar_url: "https://scholar.google.com/citations?user=fcR9Oa4AAAAJ&hl=en"
+pubmed_url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=golden+sa"
+orcid_url: ""  # TODO: paste the lab's ORCiD profile URL here
 department: "Department of Neurobiology and Biophysics"
 institution: "University of Washington"
 location: "HSB F-524"

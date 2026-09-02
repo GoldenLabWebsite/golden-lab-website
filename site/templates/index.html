@@ -1,28 +1,37 @@
 {% extends "base.html" %}
-{% block title %}Research{% endblock %}
+{% block title %}{{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="hero wrap">
-  <h1>{{ site.lab_name }}</h1>
-  <p class="hero-tagline">{{ site.mission }}</p>
+<section class="hero">
+  <h1>The Golden Lab.</h1>
+  <p class="accent-line">Located at {{ site.location }}.</p>
+  <p class="hero-line">{{ site.institution }}</p>
+  <p class="hero-line accent-line">{{ site.department }}</p>
+
   {% if not site.accepting_applications %}
-  <p class="notice">{{ site.application_status_note }}</p>
+  <hr>
+  <p class="notice">{{ site.application_status_note }}<br>
+  <a class="accent-link" href="{{ root }}apply.html">Please click here for more information.</a></p>
   {% endif %}
 </section>
 
-<section class="wrap research-areas">
-  <h2>Research Focus</h2>
-  <div class="card-grid">
-    {% for area in site.research_areas %}
-    <div class="card">
-      <h3>{{ area.title }}</h3>
-      <p>{{ area.body }}</p>
-    </div>
-    {% endfor %}
-  </div>
+<hr>
+
+<section class="research">
+  <h2 class="page-title">Research</h2>
+  {% for area in site.research_areas %}
+  <h3 class="eyebrow">{{ area.title }}</h3>
+  <p>{{ area.body }}</p>
+  {% endfor %}
 </section>
 
-<section class="wrap methods">
-  <h2>Methods</h2>
+<hr>
+
+<section class="methods">
+  <h3 class="eyebrow">Methods</h3>
   <p>{{ site.methods }}</p>
 </section>
+
+<hr>
+
+<p class="center-line"><a class="accent-link" href="https://goldenneurolab.com/internalhome" target="_blank" rel="noopener">- Lab Login -</a></p>
 {% endblock %}

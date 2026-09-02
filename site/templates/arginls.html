@@ -1,12 +1,12 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{% endblock %}
+{% block title %}ArgiNLS — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap prose">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.intro }}</p>
-  <p>{{ page.body }}</p>
-  <h2>Availability</h2>
-  <p>{{ page.availability }}</p>
-  <p><a href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label }}</a> — {{ page.recognition }}</p>
-</section>
+<h1 class="page-title center-line">{{ page.title }}</h1>
+<p>{{ page.intro }}</p>
+<p>{{ page.body }}</p>
+<h3 class="eyebrow">Availability</h3>
+<p>{{ page.availability }}</p>
+<hr>
+<p class="center-line"><a class="accent-link" href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label | upper }}</a></p>
+<p class="center-line muted">{{ page.recognition }}</p>
 {% endblock %}

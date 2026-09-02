@@ -1,18 +1,16 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{% endblock %}
+{% block title %}Join — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap prose">
-  <h1>{{ page.title }}</h1>
-  {% if not site.accepting_applications %}
-  <div class="notice notice-block">
-    <h2>{{ page.status_heading }}</h2>
-    <p>{{ site.application_status_note }}</p>
-  </div>
-  {% endif %}
-  <p>{{ page.philosophy }}</p>
-  {% for t in page.tracks %}
-  <h3>{{ t.heading }}</h3>
-  <p>{{ t.body }}</p>
-  {% endfor %}
-</section>
+<h1 class="page-title center-line">{{ page.title }}</h1>
+{% if not site.accepting_applications %}
+<hr>
+<h3 class="eyebrow center-line">{{ page.status_heading }}</h3>
+<p class="notice">{{ site.application_status_note }}</p>
+<hr>
+{% endif %}
+<p>{{ page.philosophy }}</p>
+{% for t in page.tracks %}
+<h3 class="eyebrow">{{ t.heading }}</h3>
+<p>{{ t.body }}</p>
+{% endfor %}
 {% endblock %}

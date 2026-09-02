@@ -2,7 +2,10 @@
 
 Source for goldenneurolab.com, rebuilt as a static site so content updates are
 plain-text edits + a build + a git push, instead of clicking through the
-Squarespace editor.
+Squarespace editor. The design (black background, red/white Montserrat +
+Lato type, photo-forward people page, full-abstract publications list) was
+copied from the live Squarespace site, including the real logo and staff
+photos.
 
 ## How it's organized
 
@@ -43,9 +46,17 @@ docs/                <- the generated, ready-to-publish site (do not hand-edit)
 
 ## Photos
 
-Real staff/member photos still need to be added to `site/static/images/` and
-referenced by filename in `people.yaml` (the `photo:` field). Every entry
-currently points at a placeholder silhouette.
+Real staff/member photos are already in `site/static/images/people/` (pulled
+from the live site) and referenced by filename in `people.yaml` (the
+`photo:` field). To add a new person, drop their photo in that folder and
+point `photo:` at it.
+
+## Migration tools
+
+`migration-tools/` holds the one-off scripts used to pull content and images
+off the old Squarespace site (`gen_publications.py`, `decode_images.py`,
+`screenshot.py`). They're not needed for day-to-day updates — kept only in
+case a future re-scrape is useful.
 
 ## Deployment (one-time setup, not yet done)
 

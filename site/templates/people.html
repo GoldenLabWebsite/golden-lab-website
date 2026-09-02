@@ -1,34 +1,40 @@
 {% extends "base.html" %}
-{% block title %}People{% endblock %}
+{% block title %}People — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap">
-  <h1>People</h1>
+<h1 class="page-title center-line">The Team</h1>
 
-  <h2 class="section-label">Current Members</h2>
-  {% for group in people.current %}
-  <h3 class="group-label">{{ group.group }}</h3>
-  <div class="person-grid">
-    {% for m in group.members %}
-    <div class="person-card">
-      <img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">
-      <div class="person-info">
-        <h4>{{ m.name }}</h4>
-        <p class="person-role">{{ m.role }}{% if m.years %} · {{ m.years }}{% endif %}</p>
-        {% if m.bio %}<p class="person-bio">{{ m.bio }}</p>{% endif %}
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endfor %}
+{% for group in people.current %}
+<h3 class="eyebrow group-heading">{{ group.group }}</h3>
+<hr>
+{% for m in group.members %}
+<div class="person">
+  <img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">
+  <p class="person-name">{{ m.name }}</p>
+  {% if m.role %}<p class="person-role">{{ m.role }}{% if m.years %} ({{ m.years }}){% endif %}</p>{% endif %}
+  {% if m.subroles %}{% for s in m.subroles %}<p class="person-role muted">{{ s }}</p>{% endfor %}{% endif %}
+  {% if m.bio %}<p class="person-bio">{{ m.bio }}</p>{% endif %}
+  {% if m.links %}
+  <p class="link-row">
+    {% for l in m.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+{% endfor %}
 
-  <h2 class="section-label">Alumni</h2>
-  {% for group in people.alumni %}
-  <h3 class="group-label">{{ group.group }}</h3>
-  <ul class="alumni-list">
-    {% for m in group.members %}
-    <li>{{ m.name }}{% if m.years %} <span class="alumni-years">({{ m.years }})</span>{% endif %}</li>
-    {% endfor %}
-  </ul>
+<hr>
+<p class="center-line">Would you like to join the lab? This could be you! See our <a class="accent-link" href="{{ root }}apply.html">application page</a> for more information on currently available positions.</p>
+
+<hr>
+<h2 class="page-title">Alumni</h2>
+{% for group in people.alumni %}
+<h3 class="eyebrow group-heading">{{ group.group }}</h3>
+<ul class="alumni-list">
+  {% for m in group.members %}
+  <li>{{ m.name }}{% if m.years %} &mdash; {{ m.years }}{% endif %}{% if m.note %} <span class="muted">({{ m.note }})</span>{% endif %}
+  {% if m.links %} &mdash; {% for l in m.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}{% endif %}
+  </li>
   {% endfor %}
-</section>
+</ul>
+{% endfor %}
 {% endblock %}

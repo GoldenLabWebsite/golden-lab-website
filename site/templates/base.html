@@ -3,18 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% block title %}{{ site.lab_name }}{% endblock %} — {{ site.institution }}</title>
+<title>{% block title %}{{ site.lab_name }}{% endblock %}</title>
 <meta name="description" content="{{ site.mission | trim }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}static/css/style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{{ root }}index.html">
-      <span class="brand-name">{{ site.lab_name }}</span>
-      <span class="brand-sub">{{ site.institution }}</span>
+      <img class="brand-logo" src="{{ root }}static/images/{{ site.logo }}" alt="{{ site.lab_name }} — {{ site.tagline }}">
     </a>
-    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">☰</button>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">&#9776;</button>
     <nav class="site-nav">
       {% for item in site.nav %}
       <a href="{{ root }}{{ item.url }}" class="{{ 'active' if item.url == active_page else '' }}">{{ item.label }}</a>
@@ -23,15 +25,14 @@
   </div>
 </header>
 
-<main>
+<main class="wrap">
 {% block content %}{% endblock %}
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <p class="footer-tagline">{{ site.footer_tagline }}</p>
-    <p class="footer-meta">© {{ site.copyright_year }} {{ site.copyright_holder }} · {{ site.institution }}, {{ site.department }}</p>
-  </div>
+  <p class="footer-tagline">{{ site.footer_tagline }}</p>
+  <p class="footer-meta">Copyright {{ site.copyright_holder }} {{ site.copyright_year }}</p>
+  <p class="footer-email"><a href="mailto:{{ site.email }}">&#9993;</a></p>
 </footer>
 </body>
 </html>

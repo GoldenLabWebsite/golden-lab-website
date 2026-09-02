@@ -1,22 +1,26 @@
 {% extends "base.html" %}
-{% block title %}Publications{% endblock %}
+{% block title %}Publications — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap">
-  <h1>Publications</h1>
-  {% for year, pubs in publications_by_year %}
-  <h2 class="year-label">{{ year }}</h2>
-  <ul class="pub-list">
-    {% for p in pubs %}
-    <li id="pub-{{ p.num }}">
-      <span class="pub-num">{{ p.num }}.</span>
-      <span class="pub-authors">{{ p.authors }}</span>
-      <span class="pub-title">{{ p.title }}</span>
-      <span class="pub-journal">{{ p.journal }}</span>
-      <span class="pub-detail">{{ p.detail }}</span>
-      {% if p.doi %}<a class="pub-doi" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
-</section>
+<h1 class="page-title center-line">Lab Publications</h1>
+<p class="center-line">Papers listed in reverse-chronology.</p>
+<p class="center-line link-row">
+  <a class="accent-link" href="{{ site.scholar_url }}" target="_blank" rel="noopener">GOOGLE SCHOLAR</a> -
+  <a class="accent-link" href="{{ site.pubmed_url }}" target="_blank" rel="noopener">PUBMED</a>{% if site.orcid_url %} -
+  <a class="accent-link" href="{{ site.orcid_url }}" target="_blank" rel="noopener">ORCiD</a>{% endif %}
+</p>
+
+<hr>
+
+{% for year, pubs in publications_by_year %}
+<h2 class="year-label">{{ year }}</h2>
+{% for p in pubs %}
+<div class="pub-entry">
+  <p class="pub-title">{{ p.title | upper }}</p>
+  <p class="pub-authors">{{ p.authors }}</p>
+  <p class="pub-citation">{{ p.journal }} {{ p.detail }}{% if p.doi %} doi: <a class="accent-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.doi }}</a>{% endif %}</p>
+  {% if p.abstract %}<p class="pub-abstract">{{ p.abstract }}</p>{% endif %}
+</div>
+{% endfor %}
+<hr>
+{% endfor %}
 {% endblock %}

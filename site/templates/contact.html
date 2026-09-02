@@ -1,13 +1,13 @@
 {% extends "base.html" %}
-{% block title %}Contact{% endblock %}
+{% block title %}Contact — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap prose">
-  <h1>Contact</h1>
-  <address>
-    {% for line in site.address_lines %}{{ line }}<br>{% endfor %}
-  </address>
-  <p>Phone: {{ site.phone }}<br>
-     Fax: {{ site.fax }}<br>
-     Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-</section>
+<h1 class="page-title center-line">Contact</h1>
+<address class="center-line">
+  {% for line in site.address_lines %}{{ line }}<br>{% endfor %}
+</address>
+<p class="center-line">
+  Phone: {{ site.phone }}<br>
+  Fax: {{ site.fax }}<br>
+  Email: <a class="accent-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+</p>
 {% endblock %}

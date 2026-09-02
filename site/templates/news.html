@@ -1,16 +1,13 @@
 {% extends "base.html" %}
-{% block title %}News{% endblock %}
+{% block title %}News — {{ site.lab_name }}{% endblock %}
 {% block content %}
-<section class="wrap">
-  <h1>News</h1>
-  <ul class="news-list">
-    {% for item in news %}
-    <li class="news-item">
-      <time class="news-date">{{ item.date_display }}</time>
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.body }}</p>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+<h1 class="page-title center-line">News</h1>
+{% for item in news %}
+<div class="news-entry">
+  <p class="news-date">{{ item.date_display }}</p>
+  <h3 class="news-title">{{ item.title }}</h3>
+  <p class="news-body">{{ item.body }}</p>
+</div>
+<hr>
+{% endfor %}
 {% endblock %}
