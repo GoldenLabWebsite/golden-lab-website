@@ -40,7 +40,7 @@ arginls:
   publication:
     label: "Published in PNAS (2024)"
     url: "https://doi.org/10.1073/pnas.2320250121"
-  recognition: "Selected as \"Publication of the Week\" by Science in Seattle."
+    pdf: "static/files/pubs/szelenyi-2024-pnas.pdf"
 
 apply:
   title: "Join the Lab"

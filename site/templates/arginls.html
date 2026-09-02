@@ -30,6 +30,7 @@
 <h3 class="eyebrow">Availability</h3>
 <p>{{ page.availability }}</p>
 <hr>
-<p class="center-line"><a class="accent-link" href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label | upper }}</a></p>
-<p class="center-line muted">{{ page.recognition }}</p>
+<p class="center-line link-row">
+  <a class="accent-link" href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label | upper }}</a>{% if page.publication.pdf %} <a class="accent-link" href="{{ page.publication.pdf }}" target="_blank" rel="noopener">[FULL DOWNLOAD]</a>{% endif %}
+</p>
 {% endblock %}
