@@ -73,6 +73,20 @@ research_areas:
       delayed by five days did not, despite similarly preserved social reward-seeking. Passive,
       non-contingent social contact and food reward did not buffer pain, highlighting agency and
       timing as key variables in social pain buffering.
+  - title: "Anesthesia and Consciousness"
+    image: "research/anesthesia-consciousness.png"
+    body: >
+      In close collaboration with the Heshmati Lab at the University of Washington, under the
+      direction of Dr. Mitra Heshmati, we investigate the brain-wide neural circuits governing
+      loss and recovery of consciousness under general anesthesia. Across a series of
+      collaborative preprints, we have used whole-brain activity mapping and brain-wide
+      chemogenetic circuit capture in mice to identify discrete subcortical hotspots recruited
+      during isoflurane-induced unconsciousness, engineered a synthetic anesthesia-like state by
+      reactivating these captured circuits in the absence of any anesthetic drug, and shown that
+      emergence from anesthesia reflects selective subcortical recruitment rather than a broad
+      return to wakeful brain activity. Together, this partnership is building a brain-wide,
+      circuit-level framework for conscious state transitions, with relevance to both basic
+      neuroscience and clinical anesthesiology.
   - title: "Methods Development"
     image: "research/methods-development.jpg"
     body: >
