@@ -6,7 +6,6 @@ simba:
     reproducibility, and accessibility for behavioral neuroscientists.
   links:
     - {label: "GitHub repository", url: "https://github.com/sgoldenlab/simba"}
-    - {label: "Gitter community chat", url: "https://gitter.im/SimBA-Resource/community"}
     - {label: "Nature Neuroscience publication", url: "https://doi.org/10.1038/s41593-024-01649-9"}
   contact_note: "For questions about SimBA, contact the lab at sagolden@uw.edu."
 

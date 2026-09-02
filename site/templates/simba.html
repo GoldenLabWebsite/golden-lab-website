@@ -2,7 +2,7 @@
 {% block title %}SimBA — {{ site.lab_name }}{% endblock %}
 {% block content %}
 <h1 class="page-title center-line">{{ page.title }}</h1>
-<p>{{ page.intro }}</p>
+<p>{{ page.intro | replace("SimBA", '<a class="accent-link" href="https://simba-uw-tf-dev.readthedocs.io/en/latest/published_studies.html" target="_blank" rel="noopener">SimBA</a>', 1) | safe }}</p>
 <p class="center-line link-row">
   {% for l in page.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
 </p>
