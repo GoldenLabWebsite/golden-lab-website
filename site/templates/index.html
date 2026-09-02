@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Research{% endblock %}
+{% block content %}
+<section class="hero wrap">
+  <h1>{{ site.lab_name }}</h1>
+  <p class="hero-tagline">{{ site.mission }}</p>
+  {% if not site.accepting_applications %}
+  <p class="notice">{{ site.application_status_note }}</p>
+  {% endif %}
+</section>
+
+<section class="wrap research-areas">
+  <h2>Research Focus</h2>
+  <div class="card-grid">
+    {% for area in site.research_areas %}
+    <div class="card">
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap methods">
+  <h2>Methods</h2>
+  <p>{{ site.methods }}</p>
+</section>
+{% endblock %}

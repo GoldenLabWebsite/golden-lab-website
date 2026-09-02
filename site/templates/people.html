@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}People{% endblock %}
+{% block content %}
+<section class="wrap">
+  <h1>People</h1>
+
+  <h2 class="section-label">Current Members</h2>
+  {% for group in people.current %}
+  <h3 class="group-label">{{ group.group }}</h3>
+  <div class="person-grid">
+    {% for m in group.members %}
+    <div class="person-card">
+      <img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">
+      <div class="person-info">
+        <h4>{{ m.name }}</h4>
+        <p class="person-role">{{ m.role }}{% if m.years %} · {{ m.years }}{% endif %}</p>
+        {% if m.bio %}<p class="person-bio">{{ m.bio }}</p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  <h2 class="section-label">Alumni</h2>
+  {% for group in people.alumni %}
+  <h3 class="group-label">{{ group.group }}</h3>
+  <ul class="alumni-list">
+    {% for m in group.members %}
+    <li>{{ m.name }}{% if m.years %} <span class="alumni-years">({{ m.years }})</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</section>
+{% endblock %}

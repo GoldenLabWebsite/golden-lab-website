@@ -1,0 +1,58 @@
+simba:
+  title: "SimBA: Simple Behavioral Analysis"
+  intro: >
+    SimBA is an open-source platform developed by the Golden Lab for building supervised
+    machine-learning classifiers of complex social behavior, with an emphasis on explainability,
+    reproducibility, and accessibility for behavioral neuroscientists.
+  links:
+    - {label: "GitHub repository", url: "https://github.com/sgoldenlab/simba"}
+    - {label: "Gitter community chat", url: "https://gitter.im/SimBA-Resource/community"}
+    - {label: "Nature Neuroscience publication", url: "https://doi.org/10.1038/s41593-024-01649-9"}
+  contact_note: "For questions about SimBA, contact the lab at sagolden@uw.edu."
+
+arginls:
+  title: "ArgiNLS"
+  intro: >
+    ArgiNLS (Arginine-rich Nuclear Localization Signal) is a genetic tagging strategy developed
+    by Dr. Eric Szelenyi and Dr. Sam Golden that flexibly and safely achieves fluorescent-protein
+    nuclear restriction across the brain, facilitating machine-learning-based segmentation of
+    single cells at scale.
+  body: >
+    Quantifying labeled cells in fluorescent microscopy is a fundamental challenge in modern
+    biology. Traditional nuclear localization signals have limited effectiveness, while
+    alternative approaches can compromise cellular health. ArgiNLS improves discrimination of
+    individually labeled cells while maintaining cellular compatibility.
+  availability: >
+    Constructs are available through Addgene for academic and non-profit institutions under
+    standard material transfer agreements. Other use requests should be directed to Dr. Szelenyi.
+  publication:
+    label: "Published in PNAS (2024)"
+    url: "https://doi.org/10.1073/pnas.2320250121"
+  recognition: "Selected as \"Publication of the Week\" by Science in Seattle."
+
+apply:
+  title: "Join the Lab"
+  status_heading: "Current Application Status"
+  philosophy: >
+    "A lab is first and foremost about the people in it." We seek to foster a scientific
+    community where diverse ideas and opinions are the norm, and we support career development
+    across academia, industry, or other paths.
+  tracks:
+    - heading: "Postdoctoral Associates and Fellows"
+      body: >
+        Email sagolden@uw.edu with a cover letter describing your research background, your
+        proposed future direction at the Golden Lab, your career goals, your CV, and contact
+        information for three references.
+    - heading: "Lab Manager / Research Technician"
+      body: >
+        Submit a cover letter explaining your interest in lab work and career goals, plus a CV
+        with three references. Experience with mouse colonies and a two-plus-year commitment
+        are prioritized.
+    - heading: "UW Graduate Students"
+      body: >
+        Contact the director directly to schedule a discussion. Enthusiasm and curiosity are
+        valued over prior computational experience.
+    - heading: "Undergraduates"
+      body: >
+        Email a CV, a cover letter detailing your interest in the lab and your goals, any prior
+        experience, and your weekly time commitment.

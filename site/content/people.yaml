@@ -1,0 +1,118 @@
+current:
+  - group: "Leadership"
+    members:
+      - name: "Sam A. Golden, PhD"
+        role: "Assistant Professor & Ronald S. Howell Distinguished Faculty Fellow"
+        years: ""
+        bio: "Understanding the psychological and neural mechanisms guiding reward processing."
+        photo: "placeholder-person.svg"
+
+  - group: "Staff and Postdoctoral Fellows"
+    members:
+      - name: "Eric Szelenyi, PhD"
+        role: "Acting Assistant Professor"
+        years: "2024-present (Postdoctoral Fellow 2019-2023)"
+        bio: "Brain-wide cellular ensembles underlying aggression and social behavior."
+        photo: "placeholder-person.svg"
+      - name: "Kevin Schneider, PhD"
+        role: "Postdoctoral Fellow"
+        years: "2022-present"
+        bio: ""
+        photo: "placeholder-person.svg"
+      - name: "Carlee Toddes, PhD"
+        role: "Postdoctoral Fellow"
+        years: "2022-present (co-mentored with Dr. Mitra Heshmati)"
+        bio: "Neural dynamics underlying pain-modulated social behavior."
+        photo: "placeholder-person.svg"
+      - name: "Lukas Macmillen, BS"
+        role: "Research Technologist / Lab Manager"
+        years: "2024-present"
+        bio: ""
+        photo: "placeholder-person.svg"
+      - name: "Hallie Lazaro, BS"
+        role: "Research Technologist"
+        years: "2024-present (co-mentored with Heshmati Lab)"
+        bio: ""
+        photo: "placeholder-person.svg"
+
+  - group: "Graduate Trainees"
+    members:
+      - name: "Nastacia Goodwin, BS"
+        role: "Graduate Student"
+        years: "2019-2024"
+        bio: "Neural ensembles driving appetitive versus reactive aggression."
+        photo: "placeholder-person.svg"
+      - name: "Jovana Navarrete"
+        role: "Graduate Student"
+        years: "2021-present"
+        bio: ""
+        photo: "placeholder-person.svg"
+
+  - group: "Post-baccalaureate Trainees"
+    members:
+      - name: "Erica Sanchez, BS"
+        role: "Post-baccalaureate Student (UW SOAR Program)"
+        years: "2024-present"
+        bio: "Neural circuitry of decision-making, behavior, and pain sensitivity."
+        photo: "placeholder-person.svg"
+
+  - group: "Undergraduate Trainees"
+    members:
+      - {name: "Pranav Anumolu", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Kevin Bai", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Yahir Gonzalez", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Virginia Wang", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Ethan Gross", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Axelle Salazar", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Bryce Bowler", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "William Riley Keeler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Aida Chan", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "placeholder-person.svg"}
+      - {name: "Kelsey Carvajal", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2024-present", bio: "Cultivating expertise in neuroscience and research.", photo: "placeholder-person.svg"}
+
+alumni:
+  - group: "Staff and Postdoctoral Fellows"
+    members:
+      - {name: "Simon Nilsson, PhD", years: "2019-2021"}
+      - {name: "JJ Choong, MA", years: "2019-2021"}
+      - {name: "Alex Murry, BS", years: "2021-2023"}
+  - group: "PhD and MA Graduate Trainees"
+    members:
+      - {name: "Nastacia Goodwin, PhD", years: "2019-2024"}
+      - {name: "JJ Choong, MA", years: "2019-2021"}
+      - {name: "Roël Vrooman, MA", years: "2020-2021"}
+  - group: "Post-baccalaureate Trainees"
+    members:
+      - {name: "Briana Smith, BS", years: "2019-2020"}
+      - {name: "Liana Bloom, BA", years: "2019-2021"}
+      - {name: "Yizhe Zhang, BS", years: "2021-2023"}
+      - {name: "Ainsley Barrow, BS", years: "2023-2024"}
+  - group: "Undergraduate Trainees"
+    members:
+      - {name: "Tanvi Shedge", years: ""}
+      - {name: "Sophia Hwang", years: ""}
+      - {name: "Mahathi Allepally", years: ""}
+      - {name: "Cindy Xu", years: ""}
+      - {name: "Annette Mercedes", years: ""}
+      - {name: "Kayla Pitts", years: ""}
+      - {name: "Aasiya Islam", years: ""}
+      - {name: "Arash Tabesh", years: ""}
+      - {name: "Yizhe Zhang", years: ""}
+      - {name: "Valerie Tsai", years: ""}
+      - {name: "Emery Leggett", years: ""}
+      - {name: "Andrea Abanto", years: ""}
+      - {name: "Kaylani Kukkadapu", years: ""}
+      - {name: "Natalie Hoffman", years: ""}
+      - {name: "Sarah Kadado", years: ""}
+      - {name: "Drew-Elizabeth Barger", years: ""}
+      - {name: "Lauren Mika Kuo", years: ""}
+      - {name: "Ainsley Barrow", years: ""}
+      - {name: "Sam Husarik", years: ""}
+  - group: "High School Trainees"
+    members:
+      - {name: "Anika Consul", years: ""}
+      - {name: "Hermona Hadush", years: ""}
+      - {name: "Shagun Seth", years: ""}
+      - {name: "Netrang Desai", years: ""}
+      - {name: "Aida Chan", years: ""}

@@ -1,0 +1,48 @@
+lab_name: "Golden Lab"
+tagline: "Neural circuits of motivated social behavior"
+department: "Department of Neurobiology and Biophysics"
+institution: "University of Washington"
+location: "HSB F-524"
+address_lines:
+  - "University of Washington"
+  - "Department of Neurobiology and Biophysics"
+  - "1959 NE Pacific Street, HSB F-524"
+  - "Box 357420"
+  - "Seattle, WA 98195"
+phone: "(206) 685-1587"
+fax: "(206) 543-1524"
+email: "sagolden@uw.edu"
+copyright_holder: "Sam Golden"
+copyright_year: 2026
+footer_tagline: "AGGRESSION | ADDICTION | DEPRESSION"
+accepting_applications: false
+application_status_note: "The lab is NOT currently accepting applications for postdocs, lab manager/research technician positions, UW graduate students, or UW undergraduates."
+nav:
+  - {label: "Research", url: "index.html"}
+  - {label: "SimBA", url: "simba.html"}
+  - {label: "ArgiNLS", url: "arginls.html"}
+  - {label: "People", url: "people.html"}
+  - {label: "News", url: "news.html"}
+  - {label: "Publications", url: "publications.html"}
+  - {label: "Join", url: "apply.html"}
+  - {label: "Contact", url: "contact.html"}
+mission: >
+  Understanding the neural mechanisms and circuits guiding motivated social behavior,
+  with a special interest in aggression reward, addiction, and depression.
+research_areas:
+  - title: "Appetitive Aggression"
+    body: >
+      Aggression is often comorbid with neuropsychiatric diseases, including drug addiction,
+      depression, and PTSD. We examine how appetitive aggression mimics addiction symptomatology
+      through dysregulation of reward circuits.
+  - title: "Addiction"
+    body: >
+      We examine the roles of both pro- and anti-social behaviors in addiction processes,
+      focusing on maladaptive appetitive aggression during withdrawal and relapse.
+  - title: "Depression and PTSD"
+    body: >
+      We investigate the common and unique mechanisms behind inappropriate aggression as a
+      diagnostic symptom, aiming to identify novel therapeutic approaches.
+methods: >
+  Chemogenetics, optogenetics, calcium imaging, whole-mount light-sheet fluorescent microscopy,
+  and machine-learning approaches.

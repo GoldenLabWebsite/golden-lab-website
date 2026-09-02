@@ -1,0 +1,295 @@
+publications:
+- year: 2025
+  authors: Toddes C, Golden SA.
+  title: 'Behavioral neuroscience: Dominance in the absence of competition.'
+  journal: Curr Biol.
+  detail: 2025 Jul 21;35(14):R706-R708.
+  doi: 10.1016/j.cub.2025.05.058
+- year: 2025
+  authors: Simon RC, Fleming WT, Briones BA, et al.
+  title: Opioid-driven disruption of the septum reveals a role for neurotensin-expressing neurons in withdrawal.
+  journal: Neuron.
+  detail: 2025 May 14:S0896-6273(25)00307-1.
+  doi: 10.1016/j.neuron.2025.04.024
+- year: 2025
+  authors: Luskin AT, Li L, Fu X, et al.
+  title: Heterogeneous pericoerulear neurons tune arousal and exploratory behaviours.
+  journal: Nature.
+  detail: 2025 May 7.
+  doi: 10.1038/s41586-025-08952-w
+- year: 2025
+  authors: Ishii KK, Hashikawa K, Chea J, et al.
+  title: Post-ejaculatory inhibition of female sexual drive via heterogeneous neuronal ensembles in the medial preoptic area.
+  journal: eLife.
+  detail: 2025 12:RP91765.
+  doi: 10.7554/eLife.91765.3
+- year: 2025
+  authors: Caprioli D, Golden SA, Baunez C, Venniro M.
+  title: 'Editorial: Spanning the spectrum of social behavior: towards more translationally relevant animal models.'
+  journal: Psychopharmacology (Berl).
+  detail: 2025 May;242(5):885-887.
+  doi: 10.1007/s00213-025-06755-5
+- year: 2024
+  authors: Elum JE, Szelenyi ER, Juarez B, et al.
+  title: Distinct dynamics and intrinsic properties in ventral tegmental area populations mediate reward association and motivation.
+  journal: Cell Rep.
+  detail: 2024 Aug 27;43(9):114668.
+  doi: 10.1016/j.celrep.2024.114668
+- year: 2024
+  authors: Goodwin NL, Golden SA.
+  title: Keeping it simple – a Simple Behavioral Analysis (SimBA) primer.
+  journal: NPP—Digital Psychiatry and Neuroscience
+  detail: 2, 13 (2024).
+  doi: 10.1038/s44277-024-00014-9
+- year: 2024
+  authors: Szelenyi ER, Navarrete JS, Murry AD, et al.
+  title: An arginine-rich nuclear localization signal (ArgiNLS) strategy for streamlined image segmentation of single cells.
+  journal: Proc Natl Acad Sci U S A.
+  detail: 2024 Aug 6;121(32):e2320250121.
+  doi: 10.1073/pnas.2320250121
+- year: 2024
+  authors: Goodwin NL, Choong JJ, Hwang S, et al.
+  title: Simple Behavioral Analysis (SimBA) as a platform for explainable machine learning in behavioral neuroscience.
+  journal: Nature Neuroscience.
+  detail: 2024 May 22.
+  doi: 10.1038/s41593-024-01649-9
+- year: 2024
+  authors: Ouyang W, Kilner KJ, Xavier RMP, et al.
+  title: An implantable device for wireless monitoring of diverse physio-behavioral characteristics in freely behaving small animals and interacting groups.
+  journal: Neuron.
+  detail: 2024 Jun 5;112(11):1764-1777.e5.
+  doi: 10.1016/j.neuron.2024.02.020
+- year: 2024
+  authors: Navarrete J, Schneider KN, Smith BM, et al.
+  title: Individual Differences in Volitional Social Self-Administration and Motivation in Male and Female Mice Following Social Stress.
+  journal: Biol Psychiatry.
+  detail: 2024 Jan 18:S0006-3223(24)00033-7.
+  doi: 10.1016/j.biopsych.2024.01.007
+- year: 2023
+  authors: Wohlschlegel J, Finkbeiner C, Hoffer D, et al.
+  title: ASCL1 induces neurogenesis in human Müller glia.
+  journal: Stem Cell Reports.
+  detail: 2023 Dec 12;18(12):2400-2417.
+  doi: 10.1016/j.stemcr.2023.10.021
+- year: 2023
+  authors: Ishii KK, Hashikawa K, Chea J, et al.
+  title: Post-Mating Inhibition of Female Sexual Drive via Heterogeneous Neuronal Ensembles in the Medial Preoptic Area.
+  journal: eLife.
+  detail: 2023 Nov 14; eLife12:RP91765.
+  doi: ''
+- year: 2023
+  authors: Newton KC, Kacev D, Nilsson SRO, et al.
+  title: Lateral line ablation by ototoxic compounds results in distinct rheotaxis profiles in larval zebrafish.
+  journal: Commun Biol.
+  detail: 2023 Jan 21;6(1):84.
+  doi: 10.1038/s42003-023-04449-2
+- year: 2022
+  authors: Madangopal R, Szelenyi ER, Nguyen J, et al.
+  title: Incubation of palatable food craving is associated with brain-wide neuronal activation in mice.
+  journal: Proc Natl Acad Sci U S A.
+  detail: 2022 Nov 8;119(45):e2209382119.
+  doi: 10.1073/pnas.2209382119
+- year: 2022
+  authors: Aubry AV, Joseph Burnett C, Goodwin NL, et al.
+  title: Sex differences in appetitive and reactive aggression.
+  journal: Neuropsychopharmacology.
+  detail: 2022 Sep;47(10):1746-1754.
+  doi: 10.1038/s41386-022-01375-5
+- year: 2022
+  authors: Goodwin NL, Nilsson SRO, Choong JJ, Golden SA.
+  title: Toward the explainability, transparency, and universality of machine learning for behavioral classification in neuroscience.
+  journal: Curr Opin Neurobiol.
+  detail: 2022 Apr;73:102544.
+  doi: 10.1016/j.conb.2022.102544
+- year: 2022
+  authors: Jin M, Nguyen JD, Weber SJ, et al.
+  title: 'SMART: An Open-Source Extension of WholeBrain for Intact Mouse Brain Registration and Segmentation.'
+  journal: eNeuro.
+  detail: 2022 May 3;9(3):ENEURO.0482-21.2022.
+  doi: 10.1523/ENEURO.0482-21.2022
+- year: 2022
+  authors: Marks RB, Wee JY, Jacobson SV, et al.
+  title: 'The Role of the Lateral Habenula in Suicide: A Call for Further Exploration.'
+  journal: Front Behav Neurosci.
+  detail: 2022 Mar 14;16:812952.
+  doi: 10.3389/fnbeh.2022.812952
+- year: 2022
+  authors: Winters C, Gorssen W, Ossorio-Salazar VA, et al.
+  title: Automated procedure to assess pup retrieval in laboratory mice.
+  journal: Sci Rep.
+  detail: 2022 Jan 31;12(1):1663.
+  doi: 10.1038/s41598-022-05641-w
+- year: 2021
+  authors: Szelenyi ER, Goodwin NL, Golden SA.
+  title: Social mice seeking circuits.
+  journal: Nature Neuroscience.
+  detail: 2021 Jun;24(6):761-762.
+  doi: 10.1038/s41593-021-00861-1
+- year: 2021
+  authors: Kwiatkowski CC, Akaeze H, Ndlebe I, et al.
+  title: Quantitative standardization of resident mouse behavior for studies of aggression and social defeat.
+  journal: Neuropsychopharmacology.
+  detail: 2021 Aug;46(9):1584-1593.
+  doi: 10.1038/s41386-021-01018-1
+- year: 2020
+  authors: Goodwin NL, Nilsson SRO, Golden SA.
+  title: 'Rage Against the Machine: Advancing the study of aggression ethology via machine learning.'
+  journal: Psychopharmacology (Berl).
+  detail: 2020 Sep;237(9):2569-2588.
+  doi: 10.1007/s00213-020-05577-x
+- year: 2020
+  authors: Heshmati M, Christoffel DJ, LeClair K, et al.
+  title: Depression and Social Defeat Stress Are Associated with Inhibitory Synaptic Changes in the Nucleus Accumbens.
+  journal: J Neurosci.
+  detail: 2020 Aug 5;40(32):6228-6233.
+  doi: 10.1523/JNEUROSCI.2568-19.2020
+- year: 2020
+  authors: Flanigan ME, Aleyasin H, Li L, et al.
+  title: Orexin signaling in GABAergic lateral habenula neurons modulates aggressive behavior in male mice.
+  journal: Nat Neurosci.
+  detail: 2020 May;23(5):638-650.
+  doi: 10.1038/s41593-020-0617-7
+- year: 2020
+  authors: Dudek KA, Dion-Albert L, Lebel M, et al.
+  title: Molecular adaptations of the blood-brain barrier promote stress resilience vs. depression.
+  journal: Proc Natl Acad Sci U S A.
+  detail: 2020 Feb 11;117(6):3326-3336.
+  doi: 10.1073/pnas.1914655117
+- year: 2021
+  authors: Labonté B, Abdallah K, Maussion G, et al.
+  title: Regulation of impulsive and aggressive behaviours by a novel lncRNA.
+  journal: Mol Psychiatry.
+  detail: 2021 Aug;26(8):3751-3764.
+  doi: 10.1038/s41380-019-0637-4
+- year: 2020
+  authors: Venniro M, Golden SA.
+  title: 'Taking action: empathy and social interaction in rats.'
+  journal: Neuropsychopharmacology.
+  detail: 2020 Jun;45(7):1081-1082.
+  doi: 10.1038/s41386-019-0596-0
+- year: 2019
+  authors: Golden SA, Jin M, Shaham Y.
+  title: 'Animal models of (or for) aggression reward, addiction, and relapse: behavior and circuits.'
+  journal: The Journal of Neuroscience.
+  detail: 2019 May 22;39(21):3996-4008.
+  doi: 10.1523/JNEUROSCI.0151-19.2019
+- year: 2019
+  authors: Golden SA, Jin M, Heins C, et al.
+  title: Nucleus accumbens Drd1-expressing neurons control aggression self-administration and aggression seeking in mice.
+  journal: The Journal of Neuroscience.
+  detail: 2019 Mar 27;39(13):2482-2496.
+  doi: 10.1523/JNEUROSCI.2409-18.2019
+- year: 2018
+  authors: Venniro M, Zhang M, Caprioli D, et al.
+  title: Volitional social interaction prevents drug addiction in rat models.
+  journal: Nature Neuroscience.
+  detail: 2018 Oct 15.
+  doi: 10.1038/s41593-018-0246-6
+- year: 2018
+  authors: Aleyasin H, Flanigan ME, Golden SA, et al.
+  title: Cell-Type-Specific Role of ΔFosB in Nucleus Accumbens in Modulating Intermale Aggression.
+  journal: J Neurosci.
+  detail: 2018 Jun 27;38(26):5913-5924.
+  doi: 10.1523/JNEUROSCI.0296-18.2018
+- year: 2018
+  authors: Wang J, Hodes GE, Zhang H, et al.
+  title: Epigenetic modulation of inflammation and synaptic plasticity promotes resilience against stress in mice.
+  journal: Nat Commun.
+  detail: 2018 Feb 2;9(1):477.
+  doi: 10.1038/s41467-017-02794-5
+- year: 2018
+  authors: Heshmati M, Aleyasin H, Menard C, et al.
+  title: Cell-type-specific role for nucleus accumbens neuroligin-2 in depression and stress susceptibility.
+  journal: Proc Natl Acad Sci U S A.
+  detail: 2018 Jan 30;115(5):1111-1116.
+  doi: 10.1073/pnas.1719014115
+- year: 2018
+  authors: Golden SA, Shaham Y.
+  title: 'Aggression addiction and relapse: a new frontier in psychiatry.'
+  journal: Neuropsychopharmacology.
+  detail: 2018 Jan;43(1):224-225.
+  doi: 10.1038/npp.2017.173
+- year: 2018
+  authors: Golden SA, Takahashi A.
+  title: Combinatorial psycho-pharmacological approaches for the treatment of abnormal aggression.
+  journal: Neuropsychopharmacology.
+  detail: 2018 Jan;43(2):233-234.
+  doi: 10.1038/npp.2017.174
+- year: 2017
+  authors: Chandra R, Engeln M, Schiefer C, et al.
+  title: Drp1 Mitochondrial Fission in D1 Neurons Mediates Behavioral and Cellular Plasticity during Early Cocaine Abstinence.
+  journal: Neuron.
+  detail: 2017 Dec 20;96(6):1327-1341.e6.
+  doi: 10.1016/j.neuron.2017.11.037
+- year: 2017
+  authors: Menard C, Pfau ML, Hodes GE, et al.
+  title: Social stress induces neurovascular pathology promoting depression.
+  journal: Nat Neurosci.
+  detail: 2017 Dec;20(12):1752-1760.
+  doi: 10.1038/s41593-017-0010-3
+- year: 2017
+  authors: Flanigan M, Aleyasin H, Takahashi A, et al.
+  title: An emerging role for the lateral habenula in aggressive behavior.
+  journal: Pharmacol Biochem Behav.
+  detail: 2017 Nov;162:79-86.
+  doi: 10.1016/j.pbb.2017.05.003
+- year: 2017
+  authors: Golden SA, Heins C, Venniro M, et al.
+  title: Compulsive addiction-like aggressive behavior in mice.
+  journal: Biol Psychiatry.
+  detail: 2017 Aug 15;82(4):239-248.
+  doi: 10.1016/j.biopsych.2017.03.004
+- year: 2017
+  authors: Golden SA, Aleyasin H, Heins R, et al.
+  title: Persistent conditioned place preference to aggression experience in adult male sexually-experienced CD-1 mice.
+  journal: Genes Brain Behav.
+  detail: 2017 Jan;16(1):44-55.
+  doi: 10.1111/gbb.12310
+- year: 2016
+  authors: Pfau ML, Purushothaman I, Feng J, et al.
+  title: Integrative Analysis of Sex-Specific microRNA Networks Following Stress in Mouse Nucleus Accumbens.
+  journal: Front Mol Neurosci.
+  detail: 2016 Dec 23;9:144.
+  doi: 10.3389/fnmol.2016.00144
+- year: 2016
+  authors: Golden SA, Heshmati M, Flanigan M, et al.
+  title: Basal forebrain projections to the lateral habenula modulate aggression reward.
+  journal: Nature.
+  detail: 2016 Jun 30;534(7609):688-92.
+  doi: 10.1038/nature18601
+- year: 2016
+  authors: Heshmati M, Golden SA, Pfau ML, et al.
+  title: Mefloquine in the nucleus accumbens promotes social avoidance and anxiety-like behavior in mice.
+  journal: Neuropharmacology.
+  detail: 2016 Feb;101:351-7.
+  doi: 10.1016/j.neuropharm.2015.10.013
+- year: 2015
+  authors: Hodes GE, Pfau ML, Purushothaman I, et al.
+  title: Sex Differences in Nucleus Accumbens Transcriptome Profiles Associated with Susceptibility versus Resilience to Subchronic Variable Stress.
+  journal: J Neurosci.
+  detail: 2015 Dec 16;35(50):16362-76.
+  doi: 10.1523/JNEUROSCI.1392-15.2015
+- year: 2015
+  authors: Sun H, Damez-Werno DM, Scobie KN, et al.
+  title: ACF chromatin-remodeling complex mediates stress-induced depressive-like behavior.
+  journal: Nat Med.
+  detail: 2015 Oct;21(10):1146-53.
+  doi: 10.1038/nm.3939
+- year: 2015
+  authors: Donahue RJ, Landino SM, Golden SA, et al.
+  title: Effects of acute and chronic social defeat stress are differentially mediated by the dynorphin/kappa-opioid receptor system.
+  journal: Behav Pharmacol.
+  detail: 2015 Oct;26(7 Spec No):654-63.
+  doi: 10.1097/FBP.0000000000000155
+- year: 2015
+  authors: Christoffel DJ, Golden SA, Walsh JJ, et al.
+  title: Excitatory transmission at thalamo-striatal synapses mediates susceptibility to social stress.
+  journal: Nat Neurosci.
+  detail: 2015 Jul;18(7):962-4.
+  doi: 10.1038/nn.4034
+- year: 2014
+  authors: Heller EA, Cates HM, Peña CJ, et al.
+  title: Locus-specific epigenetic remodeling controls addiction- and depression-related behaviors.
+  journal: Nat Neurosci.
+  detail: 2014 Dec;17(12):1720-7.
+  doi: 10.1038/nn.3871

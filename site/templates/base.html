@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}{{ site.lab_name }}{% endblock %} — {{ site.institution }}</title>
+<meta name="description" content="{{ site.mission | trim }}">
+<link rel="stylesheet" href="{{ root }}static/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ root }}index.html">
+      <span class="brand-name">{{ site.lab_name }}</span>
+      <span class="brand-sub">{{ site.institution }}</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">☰</button>
+    <nav class="site-nav">
+      {% for item in site.nav %}
+      <a href="{{ root }}{{ item.url }}" class="{{ 'active' if item.url == active_page else '' }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-tagline">{{ site.footer_tagline }}</p>
+    <p class="footer-meta">© {{ site.copyright_year }} {{ site.copyright_holder }} · {{ site.institution }}, {{ site.department }}</p>
+  </div>
+</footer>
+</body>
+</html>

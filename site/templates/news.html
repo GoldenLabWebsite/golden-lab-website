@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}News{% endblock %}
+{% block content %}
+<section class="wrap">
+  <h1>News</h1>
+  <ul class="news-list">
+    {% for item in news %}
+    <li class="news-item">
+      <time class="news-date">{{ item.date_display }}</time>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.body }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}
