@@ -49,6 +49,9 @@ def main():
     for n in news_raw:
         n["date_display"] = datetime.strptime(n["date"], "%Y-%m-%d").strftime("%B %-d, %Y")
 
+    # Build-time timestamp shown in the footer of every page (date only, no time of day).
+    build_date = datetime.now().strftime("%m/%d/%Y")
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)), autoescape=True, trim_blocks=True, lstrip_blocks=True)
 
     pages_to_render = {
@@ -68,7 +71,7 @@ def main():
 
     for out_name, (template_name, ctx) in pages_to_render.items():
         template = env.get_template(template_name)
-        html = template.render(site=site, root="", active_page=out_name, **ctx)
+        html = template.render(site=site, root="", active_page=out_name, build_date=build_date, **ctx)
         (OUT / out_name).write_text(html, encoding="utf-8")
 
     shutil.copytree(STATIC, OUT / "static")
