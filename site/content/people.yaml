@@ -60,7 +60,10 @@ current:
           committed to sharing open protocols, hardware specifications, and analysis code to
           lower the barrier to adopting this model.
         photo: "people/appleby.webp"
-        links: []
+        links:
+          - {label: "Email", url: "mailto:tappleby@uw.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=W96a7qsAAAAJ&hl=en"}
+          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=appleby+tr&sort=date"}
 
   - group: "Graduate Trainees"
     members:
@@ -69,7 +72,10 @@ current:
         years: "2026-present"
         bio: ""
         photo: ""
-        links: []
+        links:
+          - {label: "Email", url: "mailto:zhills@uw.edu"}
+          - {label: "Google Scholar", url: ""}
+          - {label: "PubMed", url: ""}
 
   - group: "Undergraduate Trainees"
     members:

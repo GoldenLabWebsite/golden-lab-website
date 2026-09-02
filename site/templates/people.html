@@ -24,7 +24,7 @@
   {% if m.bio %}<p class="person-bio">{{ m.bio }}</p>{% endif %}
   {% if m.links %}
   <p class="link-row">
-    {% for l in m.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+    {% for l in m.links %}{% if l.url %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% else %}<span class="muted">{{ l.label | upper }}</span>{% endif %}{% if not loop.last %} - {% endif %}{% endfor %}
   </p>
   {% endif %}
 </div>
