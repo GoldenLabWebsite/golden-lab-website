@@ -61,57 +61,15 @@ current:
           lower the barrier to adopting this model.
         photo: "people/appleby.webp"
         links: []
-      - name: "Hallie Lazaro, BS"
-        role: "Research Technologist"
-        years: "2024-present (co-mentored with the Heshmati Lab)"
-        bio: ""
-        photo: "people/lazaro.webp"
-        links:
-          - {label: "Email", url: "mailto:hlazaro@uw.edu"}
 
   - group: "Graduate Trainees"
     members:
-      - name: "Nastacia Goodwin, BS"
-        role: "Graduate Student"
-        years: "2019-2024"
-        bio: >
-          Nastacia received her BA in psychology from Smith College (Northampton, MA) in 2014.
-          She spent four years as a lab manager after graduation, first working with Dr.
-          Annaliese Beery at Smith and then Dr. Devanand Manoli at UCSF studying the
-          neurobiological underpinnings of peer versus mate sociality in voles. She is excited to
-          use her experience with behavioral work and molecular biology to study the neural
-          ensembles driving appetitive versus reactive aggression.
-        photo: "people/goodwin.webp"
-        links:
-          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/2019-08-18-Goodwin-CV.pdf"}
-          - {label: "Email", url: "mailto:ngoodwin@uw.edu"}
-          - {label: "Google Scholar", url: "https://scholar.google.com/scholar?q=nastacia%20goodwin%20voles&start=0"}
-          - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=nastacia%20goodwin"}
-      - name: "Jovana Navarrete"
-        role: "Graduate Student"
-        years: "2021-present"
+      - name: "Zoya Hill-Sargizi"
+        role: "Graduate Student (Masters)"
+        years: "2026-present"
         bio: ""
-        photo: "people/navarrete.webp"
-        links:
-          - {label: "Email", url: "mailto:jnavar2@uw.edu"}
-          - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=niNRu3wAAAAJ"}
-          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=navarrete+jovana&sort=date&size=100"}
-
-  - group: "Post-baccalaureate Trainees"
-    members:
-      - name: "Erica Sanchez, BS"
-        role: "Post-baccalaureate Student (UW SOAR Program)"
-        years: "2024-present"
-        bio: >
-          Erica received her associate degree from Elgin Community College before transferring to
-          Seattle Pacific University, where she obtained her BS in Psychology with a concentration
-          in Behavioral and Cognitive Neuroscience. At SPU, she worked under Dr. Baker with rodent
-          models to investigate the neural circuitry of decision-making, behavior, and pain
-          sensitivity. She is also interested in research on the effects of depression and
-          addiction on behavior.
-        photo: "people/sanchez.webp"
-        links:
-          - {label: "Email", url: "mailto:esanche@uw.edu"}
+        photo: ""
+        links: []
 
   - group: "Undergraduate Trainees"
     members:
@@ -145,13 +103,16 @@ alumni:
       - {name: "Eric Szelenyi, PhD", years: "2019-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=OkDzvKkAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=szelenyi%20e"}]}
       - {name: "Kevin Schneider, PhD", years: "2022-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=-Iv6U4gAAAAJ&hl=en"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=pubdate&size=100&term=Schneider+KN&cauthor_id=38244753"}]}
       - {name: "Lukas Macmillen, BS", years: "2024-2026"}
+      - {name: "Hallie Lazaro, BS", years: "2024-2025"}
   - group: "PhD and MA Graduate Trainees"
     members:
       - {name: "Nastacia Goodwin, PhD", years: "2019-2024", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=goodwin+nl&sort=date&size=100"}]}
+      - {name: "Jovana Navarrete", years: "2021-2026", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=niNRu3wAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=navarrete+jovana&sort=date&size=100"}]}
       - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
       - {name: "Roël Vrooman, MA", years: "2020-2021", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Ro%C3%ABl+Vrooman&sort=date&size=100"}]}
   - group: "Post-baccalaureate Trainees"
     members:
+      - {name: "Erica Sanchez, BS", years: "2024-2025"}
       - {name: "Briana Smith, BS", years: "2019-2020"}
       - {name: "Liana Bloom, BA", years: "2019-2021"}
       - {name: "Yizhe Zhang, BS", years: "2021-2023"}

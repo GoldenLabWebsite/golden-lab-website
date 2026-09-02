@@ -8,7 +8,7 @@
 <hr>
 {% for m in group.members %}
 <div class="person">
-  <img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">
+  {% if m.photo %}<img class="person-photo" src="{{ root }}static/images/{{ m.photo }}" alt="{{ m.name }}">{% endif %}
   <p class="person-name">{{ m.name }}</p>
   {% if m.role %}<p class="person-role">{{ m.role }}{% if m.years %} ({{ m.years }}){% endif %}</p>{% endif %}
   {% if m.subroles %}{% for s in m.subroles %}<p class="person-role muted">{{ s }}</p>{% endfor %}{% endif %}
