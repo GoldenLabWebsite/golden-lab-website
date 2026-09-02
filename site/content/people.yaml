@@ -2,9 +2,11 @@ current:
   - group: "Leadership"
     members:
       - name: "Sam A. Golden, PhD"
-        role: "Assistant Professor, Ronald S. Howell Distinguished Faculty Fellow"
+        role: "Associate Professor"
         subroles:
-          - "Department of Biological Structure, Primary"
+          - "Director, Undergraduate Program in Neuroscience"
+          - "Ronald S. Howell Distinguished Faculty Fellow"
+          - "Department of Neurobiology & Biophysics, Primary"
           - "Department of Anesthesiology & Pain Medicine, Adjunct"
         years: ""
         bio: >
