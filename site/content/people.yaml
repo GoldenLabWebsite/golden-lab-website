@@ -75,7 +75,6 @@ current:
     members:
       - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
       - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
-      - {name: "Zoya Hill-Sargizi", role: "Undergraduate Student", years: "2024-present", bio: "", photo: "", links: []}
       - {name: "Brittni Atkinson", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Shireen Aryana", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Aurora Exner", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
@@ -140,6 +139,7 @@ alumni:
       - {name: "William Riley Keeler", years: "2023-2025"}
       - {name: "Aida Chan", years: "2023-2024"}
       - {name: "Ian McRae", years: "2023-2025"}
+      - {name: "Zoya Hill-Sargizi", years: "2024-2026"}
       - {name: "Kelsey Carvajal", years: "2024-2025", note: "UW ENDURE Program"}
   - group: "High School Trainees"
     members:
