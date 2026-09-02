@@ -17,7 +17,7 @@
 <div class="pub-entry">
   <p class="pub-title">{{ p.title | upper }}</p>
   <p class="pub-authors">{{ p.authors }}</p>
-  <p class="pub-citation">{{ p.journal }} {{ p.detail }}{% if p.doi %} doi: <a class="accent-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.doi }}</a>{% endif %}</p>
+  <p class="pub-citation">{{ p.journal }} {{ p.detail }}{% if p.doi %} doi: <a class="accent-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.doi }}</a>{% endif %}{% if p.preprint %} <span class="muted">[PREPRINT]</span>{% endif %}</p>
   {% if p.abstract %}<p class="pub-abstract">{{ p.abstract }}</p>{% endif %}
 </div>
 {% endfor %}
