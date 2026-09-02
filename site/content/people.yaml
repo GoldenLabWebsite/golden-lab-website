@@ -73,50 +73,41 @@ current:
 
   - group: "Undergraduate Trainees"
     members:
-      - {name: "Pranav Anumolu", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/anumolu.webp", links: []}
-      - {name: "Kevin Bai", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/bai.webp", links: []}
-      - {name: "Yahir Gonzalez", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/gonzalez.jpg", links: []}
-      - {name: "Virginia Wang", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/wang.jpg", links: []}
-      - {name: "Ethan Gross", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/gross.png", links: []}
-      - {name: "Axelle Salazar", role: "Undergraduate Student (UW ENDURE Fellow)", years: "2022-present", bio: "", photo: "people/salazar.png", links: []}
-      - {name: "Bryce Bowler", role: "Undergraduate Student", years: "2022-present", bio: "", photo: "people/bowler.webp", links: []}
-      - {name: "William Riley Keeler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/keeler.webp", links: []}
-      - {name: "Aida Chan", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/chan.webp", links: []}
-      - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/ressler.webp", links: []}
-      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "people/halperin.webp", links: []}
-      - name: "Kelsey Carvajal"
-        role: "Undergraduate Student (UW ENDURE Fellow)"
-        years: "2024-present"
-        bio: >
-          Kelsey is an undergraduate student at the University of Washington pursuing a BS in
-          Neuroscience. She is part of the Golden Lab through the UW ENDURE program. During her
-          time in the lab she hopes to cultivate her love for neuroscience and research.
-        photo: "people/carvajal.webp"
-        links: []
+      - {name: "Nick Ressler", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
+      - {name: "Isabel Halperin", role: "Undergraduate Student", years: "2023-present", bio: "", photo: "", links: []}
+      - {name: "Zoya Hill-Sargizi", role: "Undergraduate Student", years: "2024-present", bio: "", photo: "", links: []}
+      - {name: "Brittni Atkinson", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Shireen Aryana", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Aurora Exner", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Shagun Seth", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Caroline Kobayashi", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Pearl Thapar", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Christine Cui", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Sofia Colaluca", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
 
 alumni:
   - group: "Staff and Postdoctoral Fellows"
     members:
       - {name: "Simon Nilsson, PhD", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=dKt60xAAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=nilsson+sr"}]}
       - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
-      - {name: "Alex Murry, BS", years: "2021-2023", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=murry+ad&sort=date&size=100"}]}
       - {name: "Eric Szelenyi, PhD", years: "2019-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=OkDzvKkAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=szelenyi%20e"}]}
+      - {name: "Alex Murry, BS", years: "2021-2023", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=murry+ad&sort=date&size=100"}]}
       - {name: "Kevin Schneider, PhD", years: "2022-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=-Iv6U4gAAAAJ&hl=en"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=pubdate&size=100&term=Schneider+KN&cauthor_id=38244753"}]}
       - {name: "Lukas Macmillen, BS", years: "2024-2026"}
       - {name: "Hallie Lazaro, BS", years: "2024-2025"}
   - group: "PhD and MA Graduate Trainees"
     members:
       - {name: "Nastacia Goodwin, PhD", years: "2019-2024", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=goodwin+nl&sort=date&size=100"}]}
-      - {name: "Jovana Navarrete", years: "2021-2026", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=niNRu3wAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=navarrete+jovana&sort=date&size=100"}]}
       - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
       - {name: "Roël Vrooman, MA", years: "2020-2021", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Ro%C3%ABl+Vrooman&sort=date&size=100"}]}
+      - {name: "Jovana Navarrete", years: "2021-2026", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=niNRu3wAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=navarrete+jovana&sort=date&size=100"}]}
   - group: "Post-baccalaureate Trainees"
     members:
-      - {name: "Erica Sanchez, BS", years: "2024-2025"}
       - {name: "Briana Smith, BS", years: "2019-2020"}
       - {name: "Liana Bloom, BA", years: "2019-2021"}
       - {name: "Yizhe Zhang, BS", years: "2021-2023"}
       - {name: "Ainsley Barrow, BS", years: "2023-2024"}
+      - {name: "Erica Sanchez, BS", years: "2024-2025"}
   - group: "Undergraduate Trainees"
     members:
       - {name: "Tanvi Shedge", years: "2019"}
@@ -130,14 +121,26 @@ alumni:
       - {name: "Yizhe Zhang", years: "2020-2021"}
       - {name: "Valerie Tsai", years: "2020-2022"}
       - {name: "Emery Leggett", years: "2021"}
-      - {name: "Andrea Abanto", years: "2021"}
+      - {name: "Andrea Abanto", years: "2021", note: "UW ENDURE Program"}
+      - {name: "Alexis Nguyen", years: "2021"}
       - {name: "Kaylani Kukkadapu", years: "2021-2022"}
       - {name: "Natalie Hoffman", years: "2021-2022"}
       - {name: "Sarah Kadado", years: "2021-2022"}
       - {name: "Drew-Elizabeth Barger", years: "2021-2023"}
       - {name: "Lauren Mika Kuo", years: "2021-2023"}
       - {name: "Ainsley Barrow", years: "2022-2023"}
+      - {name: "Pranav Anumolu", years: "2022-2025"}
+      - {name: "Kevin Bai", years: "2022-2025"}
+      - {name: "Yahir Gonzalez", years: "2022-2025"}
+      - {name: "Virginia Wang", years: "2022-2025"}
+      - {name: "Ethan Gross", years: "2022-2025"}
+      - {name: "Axelle Salazar", years: "2022-2025", note: "UW ENDURE Program"}
+      - {name: "Bryce Bowler", years: "2022-2025"}
       - {name: "Sam Husarik", years: "2023-2024"}
+      - {name: "William Riley Keeler", years: "2023-2025"}
+      - {name: "Aida Chan", years: "2023-2024"}
+      - {name: "Ian McRae", years: "2023-2025"}
+      - {name: "Kelsey Carvajal", years: "2024-2025", note: "UW ENDURE Program"}
   - group: "High School Trainees"
     members:
       - {name: "Anika Consul", years: "2019-2020", note: "Tesla STEM High School"}
