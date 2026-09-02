@@ -114,7 +114,7 @@ main { min-height: 60vh; padding: 48px 24px 64px; }
   background: #111;
 }
 .research-text { flex: 1 1 auto; min-width: 0; }
-.research-text .eyebrow { margin-top: 0; }
+.research-text .eyebrow { margin-top: 0; line-height: 1; }
 
 @media (max-width: 640px) {
   .research-item { flex-direction: column; gap: 14px; }
