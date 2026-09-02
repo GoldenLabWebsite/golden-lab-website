@@ -34,35 +34,6 @@ current:
 
   - group: "Staff and Postdoctoral Fellows"
     members:
-      - name: "Eric Szelenyi, PhD"
-        role: "Acting Assistant Professor"
-        years: "2024-present (Postdoctoral Fellow 2019-2023)"
-        bio: >
-          Eric received his BA in psychology/biochemistry from Shippensburg University
-          (Shippensburg, PA) in 2006 and conducted integrative physiology research for the
-          Department of Defense (USARIEM, Natick, MA) from 2006-2010. He received his PhD in
-          neuroscience from Stony Brook University (Stony Brook, NY) in 2017, completing his
-          thesis work under Dr. Pavel Osten at Cold Spring Harbor Laboratory. Prior to joining
-          the Golden Lab at UW, Eric worked as a Scientist at the Allen Institute for Brain
-          Science (Seattle, WA) from 2017-2019. Eric's scientific interest includes deciphering
-          brain-wide cellular ensembles and their dynamics that underlie behavior in health and
-          disease.
-        photo: "people/szelenyi.webp"
-        links:
-          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/Eric_R_Szelenyi_CV_2024JUN.pdf"}
-          - {label: "Email", url: "mailto:szelenyi@uw.edu"}
-          - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=OkDzvKkAAAAJ"}
-          - {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=szelenyi%20e"}
-      - name: "Kevin Schneider, PhD"
-        role: "Postdoctoral Fellow"
-        years: "2022-present"
-        bio: ""
-        photo: "people/schneider.webp"
-        links:
-          - {label: "Curriculum Vitae", url: "https://goldenneurolab.com/s/Schneider_Kevin_UW_CV.pdf"}
-          - {label: "Email", url: "mailto:knschnei@uw.edu"}
-          - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=-Iv6U4gAAAAJ&hl=en"}
-          - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=pubdate&size=100&term=Schneider+KN&cauthor_id=38244753"}
       - name: "Carlee Toddes, PhD"
         role: "Postdoctoral Fellow"
         years: "2022-present (co-mentored with Dr. Mitra Heshmati)"
@@ -78,13 +49,18 @@ current:
           - {label: "Email", url: "mailto:ctodde@uw.edu"}
           - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=oHKSXMEAAAAJ"}
           - {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=toddes+carlee&sort=pubdate&size=100"}
-      - name: "Lukas Macmillen, BS"
-        role: "Research Technologist / Lab Manager"
+      - name: "Todd Appleby, PhD"
+        role: "Postdoctoral Fellow"
         years: "2024-present"
-        bio: ""
-        photo: "people/macmillen.webp"
-        links:
-          - {label: "Email", url: "mailto:lukasmac@uw.edu"}
+        bio: >
+          [DRAFT -- please edit] Todd is a postdoctoral fellow studying opioid use and relapse.
+          He developed an oral fentanyl self-administration procedure in mice that captures
+          volitional intake, cue-driven seeking, extinction, and relapse, revealing separable
+          escalation-prone and relapse-prone phenotypes tied to genetic background. He is
+          committed to sharing open protocols, hardware specifications, and analysis code to
+          lower the barrier to adopting this model.
+        photo: "people/appleby.webp"
+        links: []
       - name: "Hallie Lazaro, BS"
         role: "Research Technologist"
         years: "2024-present (co-mentored with the Heshmati Lab)"
@@ -166,6 +142,9 @@ alumni:
       - {name: "Simon Nilsson, PhD", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=dKt60xAAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=nilsson+sr"}]}
       - {name: "JJ Choong, MA", years: "2019-2021", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=De4kC2AAAAAJ"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=date&size=100&term=Choong+JJ&cauthor_id=38778146"}]}
       - {name: "Alex Murry, BS", years: "2021-2023", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=murry+ad&sort=date&size=100"}]}
+      - {name: "Eric Szelenyi, PhD", years: "2019-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=OkDzvKkAAAAJ"}, {label: "PubMed", url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=szelenyi%20e"}]}
+      - {name: "Kevin Schneider, PhD", years: "2022-2025", links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=-Iv6U4gAAAAJ&hl=en"}, {label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?sort=pubdate&size=100&term=Schneider+KN&cauthor_id=38244753"}]}
+      - {name: "Lukas Macmillen, BS", years: "2024-2026"}
   - group: "PhD and MA Graduate Trainees"
     members:
       - {name: "Nastacia Goodwin, PhD", years: "2019-2024", links: [{label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=goodwin+nl&sort=date&size=100"}]}
