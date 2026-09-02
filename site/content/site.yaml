@@ -22,7 +22,7 @@ copyright_holder: "Sam Golden"
 copyright_year: 2026
 footer_tagline: "AGGRESSION | ADDICTION | DEPRESSION"
 accepting_applications: false
-application_status_note: "The lab is NOT currently accepting applications for postdocs, lab manager/research technician positions, UW graduate students, or UW undergraduates."
+application_status_note: "The lab is currently accepting applications for lab manager/research technician positions, as well as undergraduate trainees. We are not accepting postdoctoral or graduate students at this time."
 nav:
   - {label: "Research", url: "index.html"}
   - {label: "People", url: "people.html"}
