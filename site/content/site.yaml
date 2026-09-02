@@ -24,10 +24,10 @@ application_status_note: "The lab is NOT currently accepting applications for po
 nav:
   - {label: "Research", url: "index.html"}
   - {label: "People", url: "people.html"}
-  - {label: "SimBA", url: "simba.html"}
-  - {label: "ArgiNLS", url: "arginls.html"}
   - {label: "News", url: "news.html"}
   - {label: "Publications", url: "publications.html"}
+  - {label: "SimBA", url: "simba.html"}
+  - {label: "ArgiNLS", url: "arginls.html"}
   - {label: "Join", url: "apply.html"}
   - {label: "Contact", url: "contact.html"}
 mission: >
