@@ -19,8 +19,13 @@
 <section class="research">
   <h2 class="page-title">Research</h2>
   {% for area in site.research_areas %}
-  <h3 class="eyebrow">{{ area.title }}</h3>
-  <p>{{ area.body }}</p>
+  <div class="research-item">
+    <img class="research-image" src="{{ root }}static/images/{{ area.image }}" alt="{{ area.title }}">
+    <div class="research-text">
+      <h3 class="eyebrow">{{ area.title }}</h3>
+      <p>{{ area.body }}</p>
+    </div>
+  </div>
   {% endfor %}
 </section>
 

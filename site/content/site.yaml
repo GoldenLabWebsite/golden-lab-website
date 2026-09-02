@@ -35,6 +35,7 @@ mission: >
   with a special interest in aggression reward, addiction, and depression.
 research_areas:
   - title: "Aggression"
+    image: "research/aggression.png"
     body: >
       Aggression is often comorbid with neuropsychiatric diseases, including drug addiction and
       depression. One form, appetitive aggression, exhibits symptomatology that mimics addiction
@@ -42,6 +43,7 @@ research_areas:
       the basic neural mechanisms driving appetitive aggression and its transition to
       maladaptive, addiction-like aggression seeking.
   - title: "Addiction"
+    image: "research/addiction.jpg"
     body: >
       Fentanyl-related overdose deaths increasingly involve non-injection routes, yet
       preclinical models of opioid self-administration remain predominantly intravenous. We
@@ -52,6 +54,7 @@ research_areas:
       specifications, and analysis code are shared openly to lower the barrier to adopting this
       model.
   - title: "Depression"
+    image: "research/depression.png"
     body: >
       In 2024, we introduced an operant social stress procedure that combines voluntary social
       self-administration with social defeat and witness defeat stress in male and female mice,
@@ -60,6 +63,7 @@ research_areas:
       brain-wide activity mapping to identify the neural circuits underlying these individual
       differences in stress resilience and susceptibility.
   - title: "Pain"
+    image: "research/pain.jpg"
     body: >
       Social contact is known to buffer pain, but whether an animal's agency over that contact
       matters is unclear. Using a social operant self-administration procedure in which mice
@@ -70,6 +74,7 @@ research_areas:
       non-contingent social contact and food reward did not buffer pain, highlighting agency and
       timing as key variables in social pain buffering.
   - title: "Methods Development"
+    image: "research/methods-development.jpg"
     body: >
       The lab builds and shares open-source tools for behavioral neuroscience, including SimBA
       (Simple Behavioral Analysis), a machine-learning platform for classifying complex social
