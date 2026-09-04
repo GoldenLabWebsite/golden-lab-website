@@ -77,6 +77,9 @@ def main():
 
     shutil.copytree(STATIC, OUT / "static")
     (OUT / ".nojekyll").write_text("")
+    # Custom domain for GitHub Pages. Written on every build since the
+    # rmtree above would otherwise silently wipe it and disable the domain.
+    (OUT / "CNAME").write_text("goldenneurolab.com\n")
 
     print(f"Built {len(pages_to_render)} pages into {OUT}")
 
