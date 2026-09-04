@@ -47,7 +47,8 @@ def main():
     publications_by_year = [(y, [p for p in pubs_raw if p["year"] == y]) for y in years]
 
     for n in news_raw:
-        n["date_display"] = datetime.strptime(n["date"], "%Y-%m-%d").strftime("%B %-d, %Y")
+        dt = datetime.strptime(n["date"], "%Y-%m-%d")
+        n["date_display"] = dt.strftime("%B ") + str(dt.day) + dt.strftime(", %Y")
 
     # Build-time timestamp shown in the footer of every page (date only, no time of day).
     build_date = datetime.now().strftime("%m/%d/%Y")

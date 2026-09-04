@@ -71,8 +71,14 @@ current:
       - name: "Zoya Hill-Sargizi"
         role: "Graduate Student (Masters)"
         years: "2026-present"
-        bio: ""
-        photo: ""
+        bio: >
+          Zoya joined the Golden Lab as an undergraduate researcher while completing her B.S. in
+          Bioengineering and has remained in the lab to continue her graduate studies. Her current
+          work explores methods to integrate electrophysiological measurements with spatial
+          transcriptomics to better understand how molecular states relate to neural activity. She
+          is broadly interested in molecular engineering approaches and their application to
+          understanding brain function, particularly in the context of addiction.
+        photo: "people/zoya.jpg"
         links:
           - {label: "Email", url: "mailto:zhills@uw.edu"}
           - {label: "Google Scholar", url: ""}
