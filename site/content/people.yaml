@@ -44,7 +44,7 @@ current:
           mechanisms that underlie social affiliative behaviors. Beyond her laboratory work, she
           is deeply committed to promoting positive change in the scientific community through
           active involvement in science policy and advocacy.
-        photo: "people/toddes.webp"
+        photo: "people/toddes.jpg"
         links:
           - {label: "Email", url: "mailto:ctodde@uw.edu"}
           - {label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=oHKSXMEAAAAJ"}
@@ -53,12 +53,13 @@ current:
         role: "Postdoctoral Fellow"
         years: "2024-present"
         bio: >
-          [DRAFT -- please edit] Todd is a postdoctoral fellow studying opioid use and relapse.
-          He developed an oral fentanyl self-administration procedure in mice that captures
-          volitional intake, cue-driven seeking, extinction, and relapse, revealing separable
-          escalation-prone and relapse-prone phenotypes tied to genetic background. He is
-          committed to sharing open protocols, hardware specifications, and analysis code to
-          lower the barrier to adopting this model.
+          Todd earned his PhD at the University of Washington in the labs of Drs. Mike Manookin
+          and Fred Rieke, where he studied motion encoding in primate retinal ganglion cells. As
+          a postdoctoral fellow in the Golden Lab, he combines visual and addiction neuroscience
+          to understand how sensory circuits contribute to compulsive opioid seeking. Todd
+          helped develop the lab's oral fentanyl self-administration procedure in mice, which he
+          continues to refine as a tool for studying neural and autonomic responses to
+          opioid-associated sensory cues.
         photo: "people/appleby.webp"
         links:
           - {label: "Email", url: "mailto:tappleby@uw.edu"}
