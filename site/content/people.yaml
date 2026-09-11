@@ -115,6 +115,8 @@ current:
             photo: "collaborators/minke-nota.png"
           - name: "Kevin Schneider, PhD"
             photo: "collaborators/kevin-schneider.png"
+          - name: "Ava Pishgar, BS"
+            photo: "collaborators/ava-pishgar.jpg"
       - lab_name: "Coffey Lab"
         website: "https://www.coffeylab.org/"
         link_text: "Dr. Kevin Coffey"
