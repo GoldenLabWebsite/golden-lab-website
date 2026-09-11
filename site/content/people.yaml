@@ -98,20 +98,52 @@ current:
           - {label: "GitHub", url: "https://mlurbur.github.io/"}
 
   - group: "Key Collaborators"
-    website: "https://sites.google.com/uw.edu/heshmati/"
-    intro: >
-      The Golden Lab collaborates closely with the Heshmati Lab (Department of Anesthesiology
-      & Pain Medicine, University of Washington), led by Dr. Mitra Heshmati, on our shared
-      research into the neural circuits of anesthesia and consciousness.
-    members:
-      - name: "Mitra Heshmati, MD, PhD"
-        photo: "collaborators/mitra-heshmati.png"
-      - name: "Carlie Neiswanger, PhD"
-        photo: "collaborators/carlie-neiswanger.png"
-      - name: "Minke Nota, PhD"
-        photo: "collaborators/minke-nota.png"
-      - name: "Kevin Schneider, PhD"
-        photo: "collaborators/kevin-schneider.png"
+    collaborations:
+      - lab_name: "Heshmati Lab"
+        website: "https://sites.google.com/uw.edu/heshmati/"
+        link_text: "Heshmati Lab"
+        intro: >
+          The Golden Lab collaborates closely with the Heshmati Lab (Department of Anesthesiology
+          & Pain Medicine, University of Washington), led by Dr. Mitra Heshmati, on our shared
+          research into the neural circuits of anesthesia and consciousness.
+        members:
+          - name: "Mitra Heshmati, MD, PhD"
+            photo: "collaborators/mitra-heshmati.png"
+          - name: "Carlie Neiswanger, PhD"
+            photo: "collaborators/carlie-neiswanger.png"
+          - name: "Minke Nota, PhD"
+            photo: "collaborators/minke-nota.png"
+          - name: "Kevin Schneider, PhD"
+            photo: "collaborators/kevin-schneider.png"
+      - lab_name: "Coffey Lab"
+        website: "https://www.coffeylab.org/"
+        link_text: "Dr. Kevin Coffey"
+        intro: >
+          The Golden Lab collaborates closely with the Coffey Lab (Department of Psychiatry), led
+          by Dr. Kevin Coffey, on our shared research into the neural circuits of opioid substance
+          abuse, as well as new tool development for computer-vision based behavioral
+          classification.
+        members:
+          - name: "Kevin Coffey, PhD"
+            photo: "collaborators/kevin-coffey.jpg"
+          - name: "Sierra Schleufer, PhD"
+            photo: "collaborators/sierra-schleufer.png"
+          - name: "Tam Ho, MS"
+            photo: "collaborators/tam-ho.jpeg"
+      - lab_name: "Stuber Lab"
+        website: "https://www.stuberlab.org/"
+        link_text: "Stuber Lab"
+        intro: >
+          The Golden Lab collaborates closely with the Stuber Lab (Department of Anesthesiology &
+          Pain Medicine and Pharmacology, University of Washington), led by Dr. Garret Stuber, on
+          our shared research into opioid reward and addiction.
+        members:
+          - name: "Garret Stuber, PhD"
+            photo: "collaborators/garret-stuber.jpg"
+          - name: "Kentaro Ishii, PhD"
+            photo: "collaborators/kentaro-ishii.jpg"
+          - name: "Brandy Briones, PhD"
+            photo: "collaborators/brandy-briones.jpg"
 
   - group: "Undergraduate Trainees"
     members:
