@@ -83,6 +83,19 @@ current:
           - {label: "Email", url: "mailto:zhills@uw.edu"}
           - {label: "Google Scholar", url: ""}
           - {label: "PubMed", url: ""}
+      - name: "Moses Lurbur"
+        role: "Graduate Student (PhD)"
+        years: "2026-present (co-mentored with Dr. Vikram Iyer, Paul G. Allen School of Computer Science & Engineering, and Dr. Kevin Coffey, WA VA and Department of Psychiatry)"
+        bio: >
+          Moses is a PhD student at the University of Washington's Paul G. Allen School of Computer
+          Science & Engineering. He is broadly interested in using computer vision and machine
+          learning to improve how we collect and analyze data about animal behavior and the natural
+          world.
+        photo: "people/moses.jpg"
+        links:
+          - {label: "Email", url: "mailto:mlurbur@cs.washington.edu"}
+          - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=oh75WjEAAAAJ&hl=en&authuser=1"}
+          - {label: "GitHub", url: "https://mlurbur.github.io/"}
 
   - group: "Key Collaborators"
     website: "https://sites.google.com/uw.edu/heshmati/"
