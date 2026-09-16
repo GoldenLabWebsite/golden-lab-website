@@ -1,5 +1,14 @@
 publications:
 - year: 2026
+  authors: Schneider KN, Nota MHC, Lazaro H, Rijsketic DR, Jin M, Neiswanger C, Beck A, Ressler N, Zhang J, Li A, Shin CC, Apley E, Gutierrez G, Barrow AC, Campuzano I, Navarrete J, Szelenyi ER, Ishii KK, Nilsson SRO, Stuber GD, Denny CA, Bruchas MR, Heifets BD, de la Iglesia HO, Golden SA*, Heshmati M*.
+  title: Anesthesia unconsciousness recruits dynamic parabrachial activity within a distributed brain-wide ensemble.
+  journal: bioRxiv.
+  detail: 2026 Sep 15:2025.03.28.646066v2.
+  doi: 10.1101/2025.03.28.646066v2
+  pdf: static/files/pubs/schneider-2026-biorxiv.pdf
+  preprint: true
+  abstract: Neural circuits underlying unconsciousness remain poorly defined. We test the hypothesis that unconsciousness arises from specific, distributed circuits using general anesthesia in mice as a reproducible model. We identify a cortical-to-subcortical shift in neural activity during isoflurane anesthesia that is organized into nine discrete functional communities mapped at single-cell resolution. The lateral parabrachial nucleus (LPB) emerges as a central hub, exhibiting high interconnectivity, spontaneous firing under anesthesia, and preferential recruitment during reactivation of the brain-wide ensemble confirmed by single unit recordings. Chemogenetic reactivation of the captured brain-wide ensemble induces sedation, slow wave oscillations, hypothermia, and analgesia, which are components of anesthesia-induced unconsciousness. Reactivation of the LPB ensemble alone recapitulates a subset of these effects. Together, we define a global neural substrate for unconsciousness and recapitulate its dissociable autonomic, neurophysiologic, and behavioral effects using brain-wide ensemble manipulations. These results establish a neural circuit framework for anesthesia-induced unconsciousness in the mammalian brain.
+- year: 2026
   authors: Appleby TR, MacMillen LK, Sanchez E, Schleufer S, Neumaier JF, Golden SA*, Coffey KR*.
   title: An oral fentanyl self-administration model reveals dissociable escalation and relapse phenotypes in outbred vs inbred mice.
   journal: bioRxiv.
