@@ -7,6 +7,9 @@
   <p class="news-date">{{ item.date_display }}</p>
   <h3 class="news-title">{{ item.title }}</h3>
   <p class="news-body">{{ item.body }}</p>
+  {% if item.link %}
+  <p class="link-row"><a class="accent-link" href="{{ root }}{{ item.link }}">{{ item.link_label | default("VIEW PUBLICATION") }}</a></p>
+  {% endif %}
 </div>
 <hr>
 {% endfor %}
