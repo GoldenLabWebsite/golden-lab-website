@@ -1,5 +1,14 @@
 publications:
 - year: 2026
+  authors: Marks M, Yang R, Liu Z, Ye R, Scaria LK, Golden SA, Sun JJ, Pereira T, Kennedy A, The Days of our Mice Consortium.
+  title: A community benchmark enables high-resolution, cross-lab quantification of mouse social behavior.
+  journal: bioRxiv.
+  detail: 2026 Oct 20:2026.10.18.758876.
+  doi: 10.64898/2026.10.18.758876
+  pdf: static/files/pubs/marks-2026-biorxiv.pdf
+  preprint: true
+  abstract: Social behavior is a sensitive readout of brain state, but quantifying rodent social behavior at scale has relied on siloed, lab-specific tools. We assembled Days of our Mice (DooM), a benchmark of manually annotated video and pose tracking spanning 15 laboratories and 33 social and solitary behaviors, and hosted a community behavior classification challenge. We built on challenge solutions to develop the High-Dimensional Rodent Annotator (HiDRA), a behavior classification tool that generalizes to labs unseen during training and learns cross-lab movement features. Applied without retraining to experimental data, HiDRA resolves line-specific and state-dependent behavioral fingerprints with strong generalizability and reproducibility, establishing high-resolution, shareable social phenotyping as a scalable readout of brain and internal state. We release the DooM dataset and HiDRA classifiers as open resources.
+- year: 2026
   authors: Schneider KN, Nota MHC, Lazaro H, Rijsketic DR, Jin M, Neiswanger C, Beck A, Ressler N, Zhang J, Li A, Shin CC, Apley E, Gutierrez G, Barrow AC, Campuzano I, Navarrete J, Szelenyi ER, Ishii KK, Nilsson SRO, Stuber GD, Denny CA, Bruchas MR, Heifets BD, de la Iglesia HO, Golden SA*, Heshmati M*.
   title: Anesthesia unconsciousness recruits dynamic parabrachial activity within a distributed brain-wide ensemble.
   journal: bioRxiv.
