@@ -154,7 +154,6 @@ current:
       - {name: "Aurora Exner", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Shagun Seth", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Caroline Kobayashi", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
-      - {name: "Pearl Thapar", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Christine Cui", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Sofia Colaluca", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Aleesha Kadri", role: "Undergraduate Student", years: "2025-present", note: "UW ENDURE Program", bio: "", photo: "", links: []}
@@ -219,6 +218,7 @@ alumni:
       - {name: "Zoya Hill-Sargizi", years: "2024-2026"}
       - {name: "Kelsey Carvajal", years: "2024-2025", note: "UW ENDURE Program"}
       - {name: "Brittni Atkinson", years: "2025-2026"}
+      - {name: "Pearl Thapar", years: "2025-2026"}
   - group: "High School Trainees"
     members:
       - {name: "Anika Consul", years: "2019-2020", note: "Tesla STEM High School"}
