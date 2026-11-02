@@ -157,6 +157,8 @@ current:
       - {name: "Pearl Thapar", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Christine Cui", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
       - {name: "Sofia Colaluca", role: "Undergraduate Student", years: "2025-present", bio: "", photo: "", links: []}
+      - {name: "Aleesha Kadri", role: "Undergraduate Student", years: "2025-present", note: "UW ENDURE Program", bio: "", photo: "", links: []}
+      - {name: "Ella Zhou", role: "Undergraduate Student", years: "2026-present", bio: "", photo: "", links: []}
 
 alumni:
   - group: "Staff and Postdoctoral Fellows"

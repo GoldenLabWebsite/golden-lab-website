@@ -55,7 +55,7 @@
 {% if group.group == "Undergraduate Trainees" %}
 <ul class="alumni-list">
   {% for m in group.members %}
-  <li>{{ m.name }}{% if m.years %} &mdash; {{ m.years }}{% endif %}
+  <li>{{ m.name }}{% if m.years %} &mdash; {{ m.years }}{% endif %}{% if m.note %} <span class="muted">({{ m.note }})</span>{% endif %}
   {% if m.links %} &mdash; {% for l in m.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}{% endif %}
   </li>
   {% endfor %}
