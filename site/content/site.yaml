@@ -41,7 +41,7 @@ lab_photos:
   - jovana-defense.jpg
 
 accepting_applications: false
-application_status_note: "The lab is currently accepting applications for lab manager/research technician positions, as well as undergraduate trainees. We are not accepting postdoctoral or graduate students at this time."
+application_status_note: "The lab is not currently accepting applications for lab manager/research technician positions, nor undergraduate trainees. We are not accepting postdoctoral or graduate students at this time."
 nav:
   - {label: "Research", url: "index.html"}
   - {label: "People", url: "people.html"}
