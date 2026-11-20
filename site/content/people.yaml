@@ -96,6 +96,13 @@ current:
           - {label: "Email", url: "mailto:mlurbur@cs.washington.edu"}
           - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=oh75WjEAAAAJ&hl=en&authuser=1"}
           - {label: "GitHub", url: "https://mlurbur.github.io/"}
+      - name: "Isha Singh"
+        role: "Research Technologist"
+        years: "2026-present"
+        bio: >
+          Isha graduated with a B.S. in Neuroscience & Psychology from the University of
+          Washington. She aims to get a PhD in Systems Neuroscience.
+        photo: "people/singh.jpg"
 
   - group: "Key Collaborators"
     collaborations:
