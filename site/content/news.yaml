@@ -1,5 +1,14 @@
 news:
   - date: "2026-11-25"
+    title: "Detail, our new species-agnostic behavior analysis software, now has its own page!"
+    body: >
+      Detail is an open-source video analysis tool from Moses Lurbur and team that uses foundation
+      vision models (SAM 3 and DINOv3) to track animals and analyze their behavior across species
+      and settings, with no manually labeled training data. Check out the new Detail page on our
+      site for an overview, install guides, and documentation, and find the code on GitHub.
+    link: "https://github.com/detail-embedding/detail"
+    link_label: "View Detail on GitHub"
+  - date: "2026-11-25"
     title: "Moses Lurbur and team post the Detail preprint on bioRxiv!"
     body: >
       Congratulations to Moses Lurbur and team on the new preprint, “Detail: species-agnostic,

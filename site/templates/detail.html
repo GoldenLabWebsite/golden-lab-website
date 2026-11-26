@@ -9,7 +9,7 @@
 <p class="muted center-line">{{ page.status_note }}</p>
 
 <div class="detail-figure center-line">
-  <img src="static/images/{{ page.figures[0].img }}" alt="{{ page.figures[0].alt }}">
+  <a href="static/images/{{ page.figures[0].img }}" target="_blank" rel="noopener" title="Open full size"><img src="static/images/{{ page.figures[0].img }}" alt="{{ page.figures[0].alt }}"></a>
   <p class="detail-figure-caption">{{ page.figures[0].caption }}</p>
 </div>
 
@@ -22,14 +22,14 @@
 <p>{{ page.how_body }}</p>
 
 <div class="detail-figure center-line">
-  <img src="static/images/{{ page.figures[1].img }}" alt="{{ page.figures[1].alt }}">
+  <a href="static/images/{{ page.figures[1].img }}" target="_blank" rel="noopener" title="Open full size"><img src="static/images/{{ page.figures[1].img }}" alt="{{ page.figures[1].alt }}"></a>
   <p class="detail-figure-caption">{{ page.figures[1].caption }}</p>
 </div>
 
 <h3 class="eyebrow">{{ page.app_heading }}</h3>
 <p>{{ page.app_body }}</p>
 <div class="detail-figure center-line">
-  <img src="static/images/{{ page.app_figure.img }}" alt="{{ page.app_figure.alt }}">
+  <a href="static/images/{{ page.app_figure.img }}" target="_blank" rel="noopener" title="Open full size"><img src="static/images/{{ page.app_figure.img }}" alt="{{ page.app_figure.alt }}"></a>
   <p class="detail-figure-caption">{{ page.app_figure.caption }}</p>
 </div>
 
