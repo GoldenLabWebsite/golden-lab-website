@@ -1,5 +1,14 @@
 publications:
 - year: 2026
+  authors: Lurbur M, Iyer V, Just R, Coffey KR*, Golden SA*.
+  title: 'Detail: species-agnostic, generalizable animal behavior analysis using foundation model embeddings.'
+  journal: bioRxiv.
+  detail: 2026 Nov 25:2026.11.24.769032.
+  doi: 10.64898/2026.11.24.769032
+  pdf: static/files/pubs/lurbur-2026-biorxiv.pdf
+  preprint: true
+  abstract: Automated tools for quantifying and classifying animal behavior from video data are crucial for neuroscience, medicine, and biology. Automated analysis of animal behavior from video usually starts with pose estimation, which needs manually annotated training frames for each new species or setup and reduces an animal to a small number of biased keypoints. Here we present Detail, a behavior analysis package built on foundation vision models, for species- and context-agnostic analysis of animal behavior. Animals are segmented from video frames using SAM 3, egocentrically aligned using keypoints placed by DINOv3 patch matching, and encoded by a frozen DINOv3 model as high-dimensional pose embeddings. Beyond a few annotated example frames, no labeled training data are required. Segmentation and keypoint models can be distilled into YOLO models that run quickly on a single consumer graphics card. Analysis modules operate directly on the pose embeddings for unsupervised behavior discovery, example-based behavior retrieval, precision auditing, and statistical comparison across experimental conditions. At the core of Detail is a pose embedding space, generated from an experiment's videos, that represents animal behavior. The complete workflow, from installation to analysis, is available through graphical and command-line interfaces for scripted and high-throughput use. Detail is available at github.com/detail-embedding/detail.
+- year: 2026
   authors: Marks M, Yang R, Liu Z, Ye R, Scaria LK, Golden SA*, Sun JJ*, Pereira T*, Kennedy A*, The Days of our Mice Consortium.
   title: A community benchmark enables high-resolution, cross-lab quantification of mouse social behavior.
   journal: bioRxiv.
