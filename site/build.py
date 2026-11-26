@@ -63,6 +63,7 @@ def main():
         "simba.html": ("simba.html", {"page": pages["simba"]}),
         "arginls.html": ("arginls.html", {"page": pages["arginls"]}),
         "bmads.html": ("bmads.html", {"page": pages["bmads"]}),
+        "detail.html": ("detail.html", {"page": pages["detail"]}),
         "apply.html": ("apply.html", {"page": pages["apply"]}),
         "contact.html": ("contact.html", {}),
     }

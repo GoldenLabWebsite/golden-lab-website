@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Detail — {{ site.lab_name }}{% endblock %}
+{% block content %}
+<h1 class="page-title center-line">{{ page.title }}</h1>
+<p>{{ page.intro }}</p>
+<p class="center-line link-row">
+  {% for l in page.links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+</p>
+<p class="muted center-line">{{ page.status_note }}</p>
+
+<div class="detail-figure center-line">
+  <img src="static/images/{{ page.figures[0].img }}" alt="{{ page.figures[0].alt }}">
+  <p class="detail-figure-caption">{{ page.figures[0].caption }}</p>
+</div>
+
+<h3 class="eyebrow">{{ page.how_heading }}</h3>
+<p>{{ page.how_intro }}</p>
+<ol class="detail-steps">
+  {% for s in page.steps %}<li>{{ s }}</li>
+  {% endfor %}
+</ol>
+<p>{{ page.how_body }}</p>
+
+<div class="detail-figure center-line">
+  <img src="static/images/{{ page.figures[1].img }}" alt="{{ page.figures[1].alt }}">
+  <p class="detail-figure-caption">{{ page.figures[1].caption }}</p>
+</div>
+
+<h3 class="eyebrow">{{ page.app_heading }}</h3>
+<p>{{ page.app_body }}</p>
+<div class="detail-figure center-line">
+  <img src="static/images/{{ page.app_figure.img }}" alt="{{ page.app_figure.alt }}">
+  <p class="detail-figure-caption">{{ page.app_figure.caption }}</p>
+</div>
+
+<h3 class="eyebrow">{{ page.install_heading }}</h3>
+<p>{{ page.install_body }}</p>
+<p class="link-row">
+  {% for l in page.install_links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+</p>
+
+<h3 class="eyebrow">{{ page.learn_heading }}</h3>
+<p class="link-row">
+  {% for l in page.learn_links %}<a class="accent-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | upper }}</a>{% if not loop.last %} - {% endif %}{% endfor %}
+</p>
+
+<h3 class="eyebrow">{{ page.license_heading }}</h3>
+<p>{{ page.license_body }}</p>
+
+<h3 class="eyebrow">{{ page.cite_heading }}</h3>
+<p>{{ page.cite_body }}</p>
+<p class="detail-citation">{{ page.citation }}</p>
+<hr>
+<p class="center-line link-row">
+  <a class="accent-link" href="{{ page.publication.url }}" target="_blank" rel="noopener">{{ page.publication.label | upper }}</a>{% if page.publication.pdf %} <a class="accent-link" href="{{ page.publication.pdf }}" target="_blank" rel="noopener">[FULL DOWNLOAD]</a>{% endif %}
+</p>
+<p class="muted center-line">{{ page.contact_note }}</p>
+{% endblock %}

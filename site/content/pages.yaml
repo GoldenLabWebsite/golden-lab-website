@@ -73,6 +73,83 @@ bmads:
     label: "Neurolux"
     url: "https://www.neurolux.org/product-information/"
 
+detail:
+  title: "Detail: Species-Agnostic Behavior Analysis"
+  intro: >
+    Detail is an open-source video analysis tool for species-agnostic, setting-agnostic analysis
+    of animal behavior, developed by Moses Lurbur with Dr. Vikram Iyer, René Just, Dr. Kevin
+    Coffey, and Dr. Sam Golden. It detects and tracks animals with text-promptable foundation
+    vision models (SAM 3 and DINOv3), with no manually labeled training data. Each frame becomes
+    a pose embedding, a high-dimensional representation of posture used in place of keypoints
+    for behavior clustering, querying, and comparison.
+  links:
+    - {label: "GitHub repository", url: "https://github.com/detail-embedding/detail"}
+    - {label: "Documentation", url: "https://detail-embedding.github.io/detail/"}
+    - {label: "User guides", url: "https://detail-embedding.github.io/detail/user-guides/index.html"}
+    - {label: "bioRxiv preprint", url: "https://doi.org/10.64898/2026.11.24.769032"}
+  status_note: "Under active development. Please report bugs and issues on the GitHub issues page."
+  how_heading: "How it works"
+  how_intro: "The pipeline turns a video into pose embeddings in four steps:"
+  steps:
+    - "Segment the animal from a text prompt such as “rat” (SAM 3)."
+    - "Track it across frames."
+    - "Detect keypoints by patch matching from as little as one marked frame (DINOv3), to align the animal egocentrically."
+    - "Embed the aligned pose image (DINOv3)."
+  how_body: >
+    SAM 3 and patch matching can be distilled into small YOLO models that run faster than real
+    time on a consumer GPU. Two analysis modules use the embeddings: temporal clustering finds
+    behaviors without labels, and behavior querying finds a behavior from one or more examples.
+    Results can be audited for precision, compared between groups, and exported.
+  figures:
+    - img: "detail/method.png"
+      alt: "SAM 3 segments a crab, a rat and a fish from a text prompt; keypoints marked on one frame are placed on others by patch matching; each frame becomes an egocentric pose image and a pose embedding, where rearing, spinning and hunching fall in separate regions"
+      caption: "Segmentation from a text prompt, keypoint detection by patch matching, egocentric pose images, and the pose embedding, in which rearing, spinning, and hunching fall in separate regions."
+    - img: "detail/pipeline.png"
+      alt: "The Detail pipeline: masks, keypoints, tracking, embedding, then behavior clustering and behavior query"
+      caption: "The Detail pipeline: masks, keypoints, tracking, and embedding, followed by behavior clustering and behavior query."
+  app_heading: "In the app"
+  app_body: >
+    The desktop app covers the whole workflow, from installation and model management through
+    processing, analysis, and export. A command line and a Python API cover the same steps on
+    servers and in scripts.
+  app_figure:
+    img: "detail/gui.png"
+    alt: "The Detail desktop app in twelve steps: set up, create an experiment, distill a mask model and a keypoint model, embed each frame, then find behaviors by clustering or from examples"
+    caption: "The Detail desktop app in twelve steps: set up, create an experiment, distill a mask model and a keypoint model, embed each frame, then find behaviors by clustering or from examples."
+  install_heading: "Install"
+  install_body: >
+    Detail needs Python 3.12 or newer. SAM 3 needs an NVIDIA GPU; everything else also runs on
+    Apple Silicon or a CPU. The documentation holds the step-by-step install guides.
+  install_links:
+    - {label: "Install on Windows", url: "https://detail-embedding.github.io/detail/user-guides/install-windows.html"}
+    - {label: "Install on Linux", url: "https://detail-embedding.github.io/detail/user-guides/install-linux.html"}
+    - {label: "Getting started", url: "https://detail-embedding.github.io/detail/getting-started.html"}
+  learn_heading: "Learn"
+  learn_links:
+    - {label: "User guides", url: "https://detail-embedding.github.io/detail/user-guides/index.html"}
+    - {label: "Concepts", url: "https://detail-embedding.github.io/detail/concepts.html"}
+    - {label: "GUI", url: "https://detail-embedding.github.io/detail/gui.html"}
+    - {label: "CLI", url: "https://detail-embedding.github.io/detail/cli.html"}
+    - {label: "Python API", url: "https://detail-embedding.github.io/detail/reference/api.html"}
+    - {label: "Known issues", url: "https://detail-embedding.github.io/detail/known-issues.html"}
+  license_heading: "License"
+  license_body: >
+    Detail is free software under the GNU Affero General Public License v3.0 (AGPL-3.0-only).
+    The SAM 3 and DINOv3 model weights are not part of Detail; Detail downloads them from
+    Hugging Face, where Meta publishes each under its own license.
+  cite_heading: "Citing Detail"
+  cite_body: >
+    If you use Detail in your research, please cite our preprint:
+  citation: >
+    Lurbur M, Iyer V, Just R, Coffey KR, Golden SA. Detail: species-agnostic, generalizable
+    animal behavior analysis using foundation model embeddings. bioRxiv (2026).
+  publication:
+    label: "bioRxiv preprint (2026)"
+    url: "https://doi.org/10.64898/2026.11.24.769032"
+    pdf: "static/files/pubs/lurbur-2026-biorxiv.pdf"
+  contact_note: >
+    Questions or ideas? Post an Issue on the Detail GitHub, or email sagolden@uw.edu.
+
 apply:
   title: "Join the Lab"
   status_heading: "Current Application Status"

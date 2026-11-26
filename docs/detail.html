@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detail — Golden Lab</title>
+<meta name="description" content="Understanding the neural mechanisms and circuits guiding motivated social behavior, with a special interest in aggression reward, addiction, and depression.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="static/images/logo.webp" alt="Golden Lab — aggression.addiction.depression">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="site-nav">
+      <a href="index.html" class="">Research</a>
+      <a href="people.html" class="">People</a>
+      <a href="publications.html" class="">Publications</a>
+      <a href="news.html" class="">News</a>
+      <a href="detail.html" class="active">Detail</a>
+      <a href="simba.html" class="">SimBA</a>
+      <a href="arginls.html" class="">ArgiNLS</a>
+      <a href="bmads.html" class="">BMAD</a>
+      <a href="apply.html" class="">Join</a>
+      <a href="contact.html" class="">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+<h1 class="page-title center-line">Detail: Species-Agnostic Behavior Analysis</h1>
+<p>Detail is an open-source video analysis tool for species-agnostic, setting-agnostic analysis of animal behavior, developed by Moses Lurbur with Dr. Vikram Iyer, René Just, Dr. Kevin Coffey, and Dr. Sam Golden. It detects and tracks animals with text-promptable foundation vision models (SAM 3 and DINOv3), with no manually labeled training data. Each frame becomes a pose embedding, a high-dimensional representation of posture used in place of keypoints for behavior clustering, querying, and comparison.
+</p>
+<p class="center-line link-row">
+<a class="accent-link" href="https://github.com/detail-embedding/detail" target="_blank" rel="noopener">GITHUB REPOSITORY</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/" target="_blank" rel="noopener">DOCUMENTATION</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/user-guides/index.html" target="_blank" rel="noopener">USER GUIDES</a> - <a class="accent-link" href="https://doi.org/10.64898/2026.11.24.769032" target="_blank" rel="noopener">BIORXIV PREPRINT</a></p>
+<p class="muted center-line">Under active development. Please report bugs and issues on the GitHub issues page.</p>
+
+<div class="detail-figure center-line">
+  <img src="static/images/detail/method.png" alt="SAM 3 segments a crab, a rat and a fish from a text prompt; keypoints marked on one frame are placed on others by patch matching; each frame becomes an egocentric pose image and a pose embedding, where rearing, spinning and hunching fall in separate regions">
+  <p class="detail-figure-caption">Segmentation from a text prompt, keypoint detection by patch matching, egocentric pose images, and the pose embedding, in which rearing, spinning, and hunching fall in separate regions.</p>
+</div>
+
+<h3 class="eyebrow">How it works</h3>
+<p>The pipeline turns a video into pose embeddings in four steps:</p>
+<ol class="detail-steps">
+<li>Segment the animal from a text prompt such as “rat” (SAM 3).</li>
+<li>Track it across frames.</li>
+<li>Detect keypoints by patch matching from as little as one marked frame (DINOv3), to align the animal egocentrically.</li>
+<li>Embed the aligned pose image (DINOv3).</li>
+</ol>
+<p>SAM 3 and patch matching can be distilled into small YOLO models that run faster than real time on a consumer GPU. Two analysis modules use the embeddings: temporal clustering finds behaviors without labels, and behavior querying finds a behavior from one or more examples. Results can be audited for precision, compared between groups, and exported.
+</p>
+
+<div class="detail-figure center-line">
+  <img src="static/images/detail/pipeline.png" alt="The Detail pipeline: masks, keypoints, tracking, embedding, then behavior clustering and behavior query">
+  <p class="detail-figure-caption">The Detail pipeline: masks, keypoints, tracking, and embedding, followed by behavior clustering and behavior query.</p>
+</div>
+
+<h3 class="eyebrow">In the app</h3>
+<p>The desktop app covers the whole workflow, from installation and model management through processing, analysis, and export. A command line and a Python API cover the same steps on servers and in scripts.
+</p>
+<div class="detail-figure center-line">
+  <img src="static/images/detail/gui.png" alt="The Detail desktop app in twelve steps: set up, create an experiment, distill a mask model and a keypoint model, embed each frame, then find behaviors by clustering or from examples">
+  <p class="detail-figure-caption">The Detail desktop app in twelve steps: set up, create an experiment, distill a mask model and a keypoint model, embed each frame, then find behaviors by clustering or from examples.</p>
+</div>
+
+<h3 class="eyebrow">Install</h3>
+<p>Detail needs Python 3.12 or newer. SAM 3 needs an NVIDIA GPU; everything else also runs on Apple Silicon or a CPU. The documentation holds the step-by-step install guides.
+</p>
+<p class="link-row">
+<a class="accent-link" href="https://detail-embedding.github.io/detail/user-guides/install-windows.html" target="_blank" rel="noopener">INSTALL ON WINDOWS</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/user-guides/install-linux.html" target="_blank" rel="noopener">INSTALL ON LINUX</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/getting-started.html" target="_blank" rel="noopener">GETTING STARTED</a></p>
+
+<h3 class="eyebrow">Learn</h3>
+<p class="link-row">
+<a class="accent-link" href="https://detail-embedding.github.io/detail/user-guides/index.html" target="_blank" rel="noopener">USER GUIDES</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/concepts.html" target="_blank" rel="noopener">CONCEPTS</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/gui.html" target="_blank" rel="noopener">GUI</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/cli.html" target="_blank" rel="noopener">CLI</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/reference/api.html" target="_blank" rel="noopener">PYTHON API</a> - <a class="accent-link" href="https://detail-embedding.github.io/detail/known-issues.html" target="_blank" rel="noopener">KNOWN ISSUES</a></p>
+
+<h3 class="eyebrow">License</h3>
+<p>Detail is free software under the GNU Affero General Public License v3.0 (AGPL-3.0-only). The SAM 3 and DINOv3 model weights are not part of Detail; Detail downloads them from Hugging Face, where Meta publishes each under its own license.
+</p>
+
+<h3 class="eyebrow">Citing Detail</h3>
+<p>If you use Detail in your research, please cite our preprint:
+</p>
+<p class="detail-citation">Lurbur M, Iyer V, Just R, Coffey KR, Golden SA. Detail: species-agnostic, generalizable animal behavior analysis using foundation model embeddings. bioRxiv (2026).
+</p>
+<hr>
+<p class="center-line link-row">
+  <a class="accent-link" href="https://doi.org/10.64898/2026.11.24.769032" target="_blank" rel="noopener">BIORXIV PREPRINT (2026)</a> <a class="accent-link" href="static/files/pubs/lurbur-2026-biorxiv.pdf" target="_blank" rel="noopener">[FULL DOWNLOAD]</a></p>
+<p class="muted center-line">Questions or ideas? Post an Issue on the Detail GitHub, or email sagolden@uw.edu.
+</p>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-tagline">AGGRESSION | ADDICTION | DEPRESSION</p>
+  <p class="footer-meta">Copyright Sam Golden 2026 &middot; Last updated: 11/25/2026</p>
+  <p class="footer-email"><a href="mailto:sagolden@uw.edu">&#9993;</a></p>
+</footer>
+</body>
+</html>
