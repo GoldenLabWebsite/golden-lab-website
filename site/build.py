@@ -7,6 +7,7 @@ Reads structured content from content/*.yaml, renders it through the Jinja2
 templates in templates/, and writes the finished HTML into ../docs (the
 GitHub Pages publish directory). Run this after editing any content file.
 """
+import hashlib
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -53,6 +54,10 @@ def main():
     # Build-time timestamp shown in the footer of every page (date only, no time of day).
     build_date = datetime.now().strftime("%m/%d/%Y")
 
+    # Version string derived from the stylesheet's contents, appended to its URL so
+    # browsers re-download it whenever it changes (GitHub Pages caches for 10 minutes).
+    css_version = hashlib.md5((STATIC / "css" / "style.css").read_bytes()).hexdigest()[:8]
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)), autoescape=True, trim_blocks=True, lstrip_blocks=True)
 
     pages_to_render = {
@@ -74,7 +79,7 @@ def main():
 
     for out_name, (template_name, ctx) in pages_to_render.items():
         template = env.get_template(template_name)
-        html = template.render(site=site, root="", active_page=out_name, build_date=build_date, **ctx)
+        html = template.render(site=site, root="", active_page=out_name, build_date=build_date, css_version=css_version, **ctx)
         (OUT / out_name).write_text(html, encoding="utf-8")
 
     shutil.copytree(STATIC, OUT / "static")
